@@ -1,0 +1,7 @@
+{
+    "app" : "besharatacademy",
+    "disks" : [{
+        "name" : "main-disk",
+        "mountTo" : "/app/public/media"
+    }]
+}

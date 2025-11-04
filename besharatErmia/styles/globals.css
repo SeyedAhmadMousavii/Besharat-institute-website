@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body, html {
+    background-color: rgb(243, 244, 246);
+    font-family: Vazirmatn!important;
+}
+
+@layer components {
+    .font-fa {
+        font-family: Vazirmatn!important;
+    }
+
+    .btn-flex {
+        @apply flex justify-center items-center gap-2;
+    }
+}
+
+.rtl {
+    direction: rtl!important;
+}
+
+.font-fa {
+    font-family: Vazirmatn!important;
+}
+.movement-animation{
+    animation: movement 4s ease-in-out infinite;
+}
+.vertical-movement{
+    animation: vertical 4s ease-in infinite;
+}
+@keyframes movement {
+    0%, 100%{ transform: rotate(-3deg) translate(3px) }
+    50%{ transform: rotate(3deg) translate(-3px) }
+}
+@keyframes vertical {
+    0%, 100%{ transform: translateY(3px)}
+    50%{ transform: translateY(-3px)}
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #020621;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffd700;
+    border-radius: 3px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: rgba(68, 68, 135, 0.25) 0px 30px 60px -12px inset, rgba(33, 33, 33, 0.3) 0px 18px 36px -18px inset;;
+}
+#bg-red-class{
+    background: linear-gradient(to left bottom, rgb(227, 36, 0), rgb(66, 8, 0));
+}
+#bg-green-class{
+    background: linear-gradient(to left bottom, rgba(0,222,2,1), rgba(6,44,3,1));
+}
+#bg-blue-class{
+    background: linear-gradient(to left bottom, rgb(0, 144, 255), rgb(24, 32, 77));
+}
+#bg-purple-class{
+    background: linear-gradient(to left bottom, rgba(91,14,198,1), rgba(29,1,68,1));
+}
+#bg-orange-class{
+    background: linear-gradient(to left bottom, rgb(255, 116, 2), rgb(96, 47, 1));
+}
