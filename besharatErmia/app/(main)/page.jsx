@@ -15,6 +15,7 @@ import { Loan } from "./components/loan/Loan";
 import InstagramGallery from "./components/instagram/page";
 import PriceListLink from "./components/prices/page";
 import Satisfaction from "./components/satisfaction/page";
+import ExamGrid from "./examGrid/page";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <PriceListLink  />
       <ProductSection  />
       {/* <LiveCourses /> */}
+      <ExamGrid/>
       <InstagramGallery />
       <Library />
       <Maliat />

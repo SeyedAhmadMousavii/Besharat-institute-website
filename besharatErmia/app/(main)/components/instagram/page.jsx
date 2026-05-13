@@ -4,6 +4,21 @@ import Image from "next/image";
 import Link from "next/link";
 
 const images = [
+  {
+    url: "https://www.instagram.com/reel/DS4y50qDY8e/?igsh=MTlndWZ0ZHJvOHdqeQ==",
+    src: "/assets/insta/besharat20.jpeg",
+    alt: "Instagram Post 21",
+  },
+  {
+    url: "https://www.instagram.com/reel/DSQA2vMDf0l/?igsh=dWhncGMyMGIwN2V4",
+    src: "/assets/insta/IMG_20251214_193835_669.jpg",
+    alt: "Instagram Post 20",
+  },
+  {
+    url: "https://www.instagram.com/reel/DRe5zb5Dauk/?igsh=c2s3bmFpMHgxZml5",
+    src: "/assets/insta/Besharat۲۲۲۲۶.jpg",
+    alt: "Instagram Post 19",
+  },
    {
     url: "https://www.instagram.com/reel/DQeBPxRjQtK/?igsh=dXhpYXU4djlmZWxj",
     src: "/assets/insta/Besharat234.jpg",

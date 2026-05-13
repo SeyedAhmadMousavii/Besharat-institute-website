@@ -10,6 +10,7 @@ import {
   ArrowRightOnRectangleIcon,
   ShoppingCartIcon,
   RocketLaunchIcon,
+  UserGroupIcon
 } from "@heroicons/react/24/outline";
 import { KeyIcon, UserIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -40,9 +41,14 @@ const links = [
     logo: <LinkIcon className="w-6 h-6 text-[#ffd700]" />,
   },
   {
-    name: "دپارتمان تولید محتوا",
-    href: "/adminPage",
-    logo: <RocketLaunchIcon className="w-6 h-6 text-[#ffd700]" />,
+    name: "رزومه اساتید",
+    href: "/resume",
+    logo: <UserGroupIcon className="w-6 h-6" />,
+  },
+  {
+    name: "لایو ترید",
+    href: "https://meet.google.com/spk-kbze-nmn",
+    logo: <RocketLaunchIcon className="w-6 h-6 text-[#ff0000]" />,
   },
   {
     name: "ثبت سفارش",

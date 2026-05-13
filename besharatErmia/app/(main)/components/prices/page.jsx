@@ -8,7 +8,7 @@ export default function PriceListLink() {
       <h2 className="text-lg font-extrabold mb-4 pb-2 border-b-2 border-blue-gray-900">
         لیست قیمت دوره‌ها
       </h2>
-      <a href="/assets/file/__شهریه 1404_.pdf" download>
+      <a href="/assets/file/شهریه 1405.pdf" download>
         <button
           className="mt-2 px-6 py-3 rounded-full bg-[#020620] text-white font-semibold transition-colors duration-200 w-full"
         >

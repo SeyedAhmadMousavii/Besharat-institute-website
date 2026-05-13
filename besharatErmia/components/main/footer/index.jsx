@@ -6,6 +6,7 @@ import {
   QuestionMarkCircleIcon,
   ArrowDownOnSquareIcon,
   ChevronDoubleUpIcon,
+  UserGroupIcon
 } from "@heroicons/react/24/outline";
 
 const clickHandler = () => {};
@@ -25,6 +26,11 @@ const links = [
     name: "ارتباط با ما",
     href: "contact",
     logo: <LinkIcon className="w-6 h-6 text-[#ffd700]" />,
+  },
+  {
+    name: "رزومه اساتید",
+    href: "/resume",
+    logo: <UserGroupIcon className="w-6 h-6 text-[#ffd700]" />,
   },
   {
     name: "ثبت سفارش",
