@@ -7,6 +7,7 @@ import axios from "axios";
 import Link from "next/link";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import Head from "next/head";
 
 export default function EmploymentPage() {
     const [formData, setformData] = useState({
@@ -34,64 +35,79 @@ export default function EmploymentPage() {
     }
 
     return (
-        <div className="container mx-auto max-w-4xl px-4">
-            <div className="flex flex-col items-center justify-center py-10">
-                <div className="flex w-full pb-4">
-                    <Link href="/">
-                        <Button variant="text" className="font-fa text-base btn-flex text-white">
-                            <ArrowRightIcon className="w-7 h-7 text-white" />
-                            بازگشت
-                        </Button>
-                    </Link>
-                </div>
-                <Card className="max-w-2xl w-full text-white" color="transparent" shadow={false}>
-                    <Typography className="font-fa text-[#ffd700]" variant="h4" >
-                        ارسال رزومه
-                    </Typography>
-                    <Typography className="font-fa mt-1 font-normal text-white">
-                        رزومه خود را به شکل کامل و اصولی وارد کنید
-                    </Typography>
-                    <form onSubmit={(e) => {e.preventDefault(); handleSubmit()}} className="mt-8 mb-2 w-full">
-                        <div className="mb-4 flex flex-col gap-6">
-                            <div>
-                                <UniInput required={true} onChange={(e) => setformData({...formData, name: e.target.value})} placeholder="نام شما" />
-                            </div>
-                            <div>
-                                <UniInput required={true} onChange={(e) => setformData({...formData, email: e.target.value})} placeholder="ایمیل" />
-                            </div>
-                            <div>
-                                <UniInput required={true} onChange={(e) => setformData({...formData, phone: e.target.value})} placeholder="شماره تماس" />
-                            </div>
-                            <div>
-                                <UniInput required={true} onChange={(e) => setformData({...formData, description: e.target.value})} type="textarea" placeholder="توضیحات پروژه" />
-                            </div>
+        <>
+            <Head>
+                <title>فرصت‌های شغلی | همکاری با آموزشگاه بشارت</title>
+                <meta name="description" content="ثبت رزومه و همکاری با آموزشگاه بشارت به عنوان مدرس، مشاور یا کارشناس | فرصت‌های شغلی در حوزه فناوری اطلاعات، حسابداری و ارز دیجیتال" />
+                <meta name="keywords" content="استخدام, فرصت شغلی, همکاری با بشارت, ثبت رزومه, استخدام مدرس, همکاری آموزشی" />
+            </Head>
+            <div className="container mx-auto max-w-4xl px-4 min-h-screen flex items-center justify-center bg-gradient-to-br from-[#000080]/5 via-white to-[#D4AF37]/5">
+                <div className="flex flex-col items-center justify-center py-10 w-full">
+                    <div className="flex w-full pb-4">
+                        <Link href="/">
+                            <Button variant="text" className="font-fa text-base btn-flex text-[#000080] hover:text-[#D4AF37] transition-colors">
+                                <ArrowRightIcon className="w-7 h-7 text-[#000080] hover:text-[#D4AF37] transition-colors" />
+                                بازگشت
+                            </Button>
+                        </Link>
+                    </div>
+                    <Card className="max-w-2xl w-full bg-white shadow-2xl border-2 border-[#D4AF37]/30 rounded-2xl overflow-hidden">
+                        <div className="bg-gradient-to-r from-[#000080] to-[#1A1A99] p-4">
+                            <Typography className="font-fa text-[#D4AF37]" variant="h4">
+                                ارسال رزومه
+                            </Typography>
+                            <Typography className="font-fa mt-1 font-normal text-white/80">
+                                رزومه خود را به شکل کامل و اصولی وارد کنید
+                            </Typography>
                         </div>
-                        <Checkbox
-                            required
-                            color="indigo"
-                            label={
-                                <Typography
-                                    variant="small"
-                                    className="flex items-center font-normal font-fa text-white"
-                                >
-                                    <Link
-                                        href="/rulesForEO/employment"
-                                        className="font-medium transition-colors text-[#ffd700]"
-                                    >
-                                        &nbsp;شرایط و مقررات
-                                    </Link>
-                                    &nbsp;
-                                    را قبول دارم
-                                </Typography>
-                            }
-                            containerProps={{ className: "-mr-2.5" }}
-                        />
-                        <Button type="submit" className="mt-6 font-fa bg-[#ffd700] text-blue-900" fullWidth>
-                            ثبت رزومه
-                        </Button>
-                    </form>
-                </Card>
+                        <div className="p-6 bg-white">
+                            <form onSubmit={(e) => {e.preventDefault(); handleSubmit()}} className="mt-4 mb-2 w-full">
+                                <div className="mb-4 flex flex-col gap-6">
+                                    <div>
+                                        <label className="block text-[#000080] font-semibold text-sm mb-1">نام شما</label>
+                                        <UniInput required={true} onChange={(e) => setformData({...formData, name: e.target.value})} placeholder="نام و نام خانوادگی" />
+                                    </div>
+                                    <div>
+                                        <label className="block text-[#000080] font-semibold text-sm mb-1">ایمیل</label>
+                                        <UniInput required={true} onChange={(e) => setformData({...formData, email: e.target.value})} placeholder="example@email.com" />
+                                    </div>
+                                    <div>
+                                        <label className="block text-[#000080] font-semibold text-sm mb-1">شماره تماس</label>
+                                        <UniInput required={true} onChange={(e) => setformData({...formData, phone: e.target.value})} placeholder="09xxxxxxxxx" />
+                                    </div>
+                                    <div>
+                                        <label className="block text-[#000080] font-semibold text-sm mb-1">توضیحات</label>
+                                        <UniInput required={true} onChange={(e) => setformData({...formData, description: e.target.value})} type="textarea" placeholder="توضیحات پروژه" />
+                                    </div>
+                                </div>
+                                <Checkbox
+                                    required
+                                    color="amber"
+                                    label={
+                                        <Typography
+                                            variant="small"
+                                            className="flex items-center font-normal font-fa text-[#1A1A2E]"
+                                        >
+                                            <Link
+                                                href="/rulesForEO/employment"
+                                                className="font-medium transition-colors text-[#D4AF37] hover:text-[#B8960F]"
+                                            >
+                                                &nbsp;شرایط و مقررات
+                                            </Link>
+                                            &nbsp;
+                                            را قبول دارم
+                                        </Typography>
+                                    }
+                                    containerProps={{ className: "-mr-2.5" }}
+                                />
+                                <Button type="submit" className="mt-6 font-fa bg-[#D4AF37] text-white hover:bg-[#B8960F] transition-all shadow-lg hover:shadow-[#D4AF37]/40 w-full py-3 text-lg font-bold rounded-xl" fullWidth>
+                                    ثبت رزومه
+                                </Button>
+                            </form>
+                        </div>
+                    </Card>
+                </div>
             </div>
-        </div>
+        </>
     )
 }

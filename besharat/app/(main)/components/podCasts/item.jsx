@@ -1,6 +1,7 @@
 import React from "react";
 import PodCasts from "./PodCasts";
 import { Button } from "@material-tailwind/react";
+import Image from "next/image";
 
 export default function PodCastPage() {
     const data = [
@@ -9,7 +10,7 @@ export default function PodCastPage() {
         value: "Web",
         courses: [
           {
-            image: "assets/podCast/Pod1.jpg",
+            image: "/assets/podCast/Pod1.jpg",
             title: "برنامه نویسی چیست؟",
             time: "00:04:30",
             href: "/podCastsPages/programming",
@@ -17,7 +18,7 @@ export default function PodCastPage() {
             color: "bg-purple-class"
           },
           {
-            image: "assets/podCast/Pod2.jpg",
+            image: "/assets/podCast/Pod2.jpg",
             title: "ارزدیجیتال چیست؟",
             time: "00:04:00",
             href: "/podCastsPages/digital",
@@ -25,7 +26,7 @@ export default function PodCastPage() {
             color: "bg-red-class"
           },
           {
-            image: "assets/podCast/Pod3.jpg",
+            image: "/assets/podCast/Pod3.jpg",
             title: "حسابداری پیست؟",
             time: "00:04:30",
             href: "/podCastsPages/accounting",
@@ -33,7 +34,7 @@ export default function PodCastPage() {
             color: "bg-green-class"
           },
           {
-            image: "assets/podCast/Pod4.jpg",
+            image: "/assets/podCast/Pod4.jpg",
             title: "طراحی گرافیک چیست؟",
             time: "00:03:40",
             href: "/podCastsPages/graphic",
@@ -47,8 +48,8 @@ export default function PodCastPage() {
     return (
       <div className="md:px-8 px-auto m-2">
         <div className="flex align-middle">
-          <img src="assets/speaker.jpg" alt="speaker" className="w-36 -mt-8" />
-          <h2 className="text-white font-extrabold text-3xl md:text-4xl">پــــــادکست ها</h2>
+          <Image src="/assets/speaker.jpg" alt="speaker" width={144} height={144} className="w-36 h-auto -mt-8" />
+          <h2 className="text-[#000080] font-extrabold text-3xl md:text-4xl">پــــــادکست ها</h2>
         </div>
         <div id="custom-animation" value="Web">
           <div>

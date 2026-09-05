@@ -2,7 +2,8 @@
 
 import { Button, Card, CardBody } from "@material-tailwind/react";
 import Link from "next/link";
-import { useMemo } from "react"
+import { useMemo } from "react";
+import Image from "next/image";
 
 export default function ProductItem({ thumbnail, title, caption, rev , link }) {
     const rowclass = useMemo(() => {
@@ -16,23 +17,25 @@ export default function ProductItem({ thumbnail, title, caption, rev , link }) {
 
     return (
         <Card>
-            <CardBody className="p-4 bg-[#020621]">
+            <CardBody className="bg-white border border-[#E8E8F0] shadow-md hover:shadow-lg transition-shadow">
                 <div className={rowclass}>
                     <div className="w-full sm:w-[24rem] h-auto md:w-[600px] text-center relative flex justify-center">
-                        <img
+                        <Image
                             src={thumbnail}
                             alt={title}
-                            className="rounded-lg"
+                            width={600}
+                            height={400}
+                            className="rounded-lg object-cover"
                         />
                     </div>
                     <div className="w-full lg:flex-grow text-lg text-center lg:text-start">
-                        <h1 className="text-2xl  sm:text-3xl mb-6 font-semibold text-zinc-700 text-[#ffd700]">{title}</h1>
-                        <p className="text-white text-center md:text-justify text-lg px-4">
+                        <h1 className="text-2xl sm:text-3xl mb-6 font-semibold text-[#D4AF37]">{title}</h1>
+                        <p className="text-[#1A1A2E] text-center md:text-justify text-lg px-4 leading-relaxed">
                             {caption}
                         </p>
                       <Link href={link}>
-                      <Button className="font-fa text-base mt-6 rounded-full w-full bg-[#ffd700] text-blue-900">
-                            ثبت سفارش
+                      <Button className="font-fa text-base mt-6 rounded-full w-full text-[#D4AF37] bg-[#000080] hover:bg-[#D4AF37] hover:text-[#000080] transition-all shadow-md hover:shadow-lg">
+                            مشاهده سرفصل و ثبت نام
                         </Button>
                       </Link>
                     </div>

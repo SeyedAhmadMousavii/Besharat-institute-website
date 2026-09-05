@@ -114,25 +114,27 @@ const images = [
 
 export default function InstagramGallery() {
   return (
-    <div className="w-full px-4 py-6">
-      <div className="text-center mb-6 text-3xl font-semibold text-[#ffd700]">
+    <div className="w-full px-4 py-6 bg-white">
+      <div className="text-center mb-6 text-3xl font-semibold text-[#D4AF37]">
         اینستاگرام ما را دنبال کنید
       </div>
 
-      <div className="overflow-x-auto">
-        <div className="flex gap-4 w-max">
+      <div className="overflow-x-auto h-[220px]">
+        <div className="flex gap-2 w-max">
           {images.map((item, index) => (
             <Link
               href={item.url}
               target="_blank"
               key={index}
-              className="shrink-0 transition-transform duration-300 ease-in-out"
+              className="shrink-0 transition-transform duration-300 ease-in-out hover:scale-105"
             >
-              <div className="relative w-[120px] h-[200px] rounded-xl overflow-hidden shadow-md">
-                <img
+              <div className="relative w-[120px] h-[200px] rounded-xl overflow-hidden shadow-md border-2 border-[#D4AF37]/30 hover:border-[#D4AF37] transition-colors">
+                <Image
                   src={item.src}
                   alt={item.alt}
+                  fill
                   className="object-cover"
+                  sizes="120px"
                 />
               </div>
             </Link>

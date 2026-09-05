@@ -2,12 +2,12 @@ import { ChatBubbleBottomCenterTextIcon } from "@heroicons/react/24/solid";
 
 const Satisfaction = () => {
     return ( 
-         <div className="px-16 md:flex md:justify-center md:align-middle text-[#ffd700] container mb-12">
+         <div className="px-16 md:flex md:justify-center md:align-middle container mb-12">
         <div className="flex-col justify-between align-middle m-auto">
-              <ChatBubbleBottomCenterTextIcon className="text-[#ffd700]" />
-              <p className="text-3xl">رضایت کارآموزان</p>
+              <ChatBubbleBottomCenterTextIcon className="text-[#D4AF37] w-12 h-12 mx-auto" />
+              <p className="text-3xl font-bold text-[#000080]">رضایت کارآموزان</p>
             </div>
-        <div className="md:w-[300px] rounded-3xl">
+        <div className="md:w-[300px] rounded-3xl shadow-lg border-2 border-[#D4AF37]/30">
           <video
             src="/assets/video/IMG_3011.MOV"
             controls

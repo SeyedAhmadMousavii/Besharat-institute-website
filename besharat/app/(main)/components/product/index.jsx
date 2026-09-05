@@ -23,7 +23,7 @@ export default function ProductSection() {
     return (
         <div className="py-2 my-14">
             <div className="flex flex-col gap-8 container mx-auto px-2">
-                <ProductItem link="/courses" scheme="blue" title="آموزش کامپیوتر" thumbnail="/assets/products/computer.jpg" caption={texts.Computer.caption} />
+                <ProductItem link="/courses" scheme="blue" title="آموزش کامپیوتر" thumbnail="/assets/products/computer.png" caption={texts.Computer.caption} />
                 <ProductItem rev link="/courses" scheme="green" title="آموزش حسابداری" thumbnail="/assets/products/accounting.png" caption={texts.accounting.caption} />
                 <ProductItem link="/courses" scheme="rose" title="آموزش ارز دیجیتال" thumbnail="/assets/products/digital.png" caption={texts.digital.caption} />
                 <ProductItem rev link="/courses" scheme="green" title="آموزش نقشه کشی" thumbnail="/assets/products/Architect.png" caption={texts.Architect.caption} />

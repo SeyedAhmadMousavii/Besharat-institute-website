@@ -3,7 +3,7 @@ import {
     PresentationChartLineIcon,
     AcademicCapIcon,
   } from "@heroicons/react/24/solid";
-  const IntroChoaching = () => {
+  const IntroCoaching = () => {
     return (
       <div className="text-white p-2">
         <div className="p-4 md:flex md:justify-around md:align-middle text-white container mb-12">
@@ -48,5 +48,5 @@ import {
     );
   };
   
-  export default IntroChoaching;
+  export default IntroCoaching;
   

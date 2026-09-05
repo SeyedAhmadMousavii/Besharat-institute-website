@@ -1,6 +1,7 @@
 import React from "react";
 import LiveCourses from "./liveCourses";
 import { Button } from "@material-tailwind/react";
+import Image from "next/image";
 
 export default function Page() {
     const data = [
@@ -72,14 +73,14 @@ export default function Page() {
     return (
       <div className="md:px-8 px-auto m-2">
         <div className="flex">
-          <img src="assets/liveCoursesIcon.jpg" alt="speaker" className="w-28 -mt-8" />
-          <h2 className="text-white font-extrabold text-2xl md:text-3xl mt-4">دوره های در حال برگزاری</h2>
+          <Image src="assets/liveCoursesIcon.jpg" alt="speaker" width={112} height={112} className="w-28 h-auto -mt-8" />
+          <h2 className="text-[#000080] font-extrabold text-2xl md:text-3xl mt-4">دوره های در حال برگزاری</h2>
         </div>
         <div id="custom-animation" value="courses">
           <div>
             {data.map(({ value, courses }, pk) => (
               <div key={value} value={value} className="mt-14">
-                <div className="flex overflow-x-scroll mb-10 text-white pt-7">
+                <div className="flex overflow-x-scroll mb-10 pt-7">
                 <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10">
                   {courses ?
                     courses.map(({ image, title, time, day, id }) => (

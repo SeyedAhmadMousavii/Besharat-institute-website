@@ -1,15 +1,19 @@
+import Image from "next/image";
+
 const DigitalCurrency = () => {
   return (
-    <div className="text-white container mx-auto">
+    <div className="text-[#1A1A2E] container mx-auto bg-white p-6">
       <div className="w-2/3 h-80 rounded-2xl flex justify-center m-auto my-3">
-        <img
-          src="../../assets/maghalat/maghale8arz.jpg"
+        <Image
+          src="/assets/maghalat/maghale8arz.jpg"
           alt="maghale-banner"
-          className="w-full rounded-2xl"
+          width={800}
+          height={400}
+          className="w-full h-full object-cover rounded-2xl"
         />
       </div>
 
-      <h1 className="text-3xl font-extrabold flex justify-center mb-4 text-[#ffd700]">
+      <h1 className="text-3xl font-extrabold flex justify-center mb-4 text-[#D4AF37]">
         اهمیت حفظ امنیت در دنیای ارزهای دیجیتال
       </h1>
 

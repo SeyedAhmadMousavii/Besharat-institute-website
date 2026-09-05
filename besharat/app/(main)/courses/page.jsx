@@ -9,6 +9,7 @@ import {
   TabPanel,
 } from "@material-tailwind/react";
 import CourseCard from "./courseCard.jsx";
+import Head from "next/head";
 
 export default function Page() {
   const data = [
@@ -26,7 +27,7 @@ export default function Page() {
         },
         {
           id: 2,
-          image: "assets/coursesBanner/preliminarily-web.png",
+          image: "/assets/coursesBanner/preliminarily-web.png",
           title: "طراحی وب مقدماتی",
           price: "23,734,276 تومان",
           href: "/IntroCourse/webP",
@@ -34,7 +35,7 @@ export default function Page() {
         },
         {
           id: 3,
-          image: "assets/coursesBanner/complimentary-web.png",
+          image: "/assets/coursesBanner/complimentary-web.png",
           title: "طراحی وب تکمیلی",
           price: "28,251,529 تومان",
           href: "/IntroCourse/webC",
@@ -42,7 +43,7 @@ export default function Page() {
         },
         {
           id: 4,
-          image: "assets/coursesBanner/AI.png",
+          image: "/assets/coursesBanner/AI.png",
           title: "هوش مصنوعی",
           price: "23,707,110 تومان",
           href: "/IntroCourse/AI",
@@ -50,7 +51,7 @@ export default function Page() {
         },
         {
           id: 5,
-          image: "assets/coursesBanner/photoshop.png",
+          image: "/assets/coursesBanner/photoshop.png",
           title: "Photoshop",
           price: "17,647,216 تومان",
           href: "/IntroCourse/photoshop",
@@ -58,7 +59,7 @@ export default function Page() {
         },
         {
           id: 6,
-          image: "assets/coursesBanner/premier.png",
+          image: "/assets/coursesBanner/premier.png",
           title: "Premiere",
           price: "12,658,280 تومان",
           href: "/IntroCourse/premiere",
@@ -66,7 +67,7 @@ export default function Page() {
         },
         {
           id: 7,
-          image: "assets/coursesBanner/corel.png",
+          image: "/assets/coursesBanner/corel.png",
           title: "Corel",
           price: "11,830,636 تومان",
           href: "/IntroCourse/corel",
@@ -80,23 +81,23 @@ export default function Page() {
       courses: [
         {
           id: 8,
-          image: "assets/coursesBanner/preliminarily-accounting.png",
+          image: "/assets/coursesBanner/preliminarily-accounting.png",
           title: "حسابدار",
           price: "18,144,000 تومان",
-          href: "/IntroCourse/accountingP",
+          href: "/IntroCourse/accountingPage",
           teacher: "سیدحسین قزل ایاغ",
         },
         {
           id: 9,
-          image: "assets/coursesBanner/assist-accounter.png",
+          image: "/assets/coursesBanner/assist-accounter.png",
           title: "کمک حسابدار",
           price: "18,480,000 تومان",
-          href: "/IntroCourse/assistA",
+          href: "/IntroCourse/assistAccounting",
           teacher: "سیدحسین قزل ایاغ",
         },
         {
           id: 10,
-          image: "assets/coursesBanner/salary.png",
+          image: "/assets/coursesBanner/salary.png",
           title: "حسابداری حقوق و دستمزد",
           price: "9,676,800 تومان",
           href: "/IntroCourse/salary",
@@ -104,23 +105,23 @@ export default function Page() {
         },
         {
           id: 11,
-          image: "assets/coursesBanner/bahaye-tamam.png",
+          image: "/assets/coursesBanner/bahaye-tamam.png",
           title: "حسابداری بهای تموم شده",
           price: "18,144,000 تومان",
-          href: "/IntroCourse/bahayeTamam",
+          href: "/IntroCourse/CostAccounting",
           teacher: "سیدحسین قزل ایاغ",
         },
         {
           id: 12,
-          image: "assets/coursesBanner/assist-mali.png",
+          image: "/assets/coursesBanner/assist-mali.png",
           title: "کمک متصدی تنظیم اسناد مالی",
           price: "19,008,138 تومان",
-          href: "/IntroCourse/assistMali",
+          href: "/IntroCourse/assistFinancial",
           teacher: "سیدحسین قزل ایاغ",
         },
         {
           id: 13,
-          image: "assets/coursesBanner/Holoo.png",
+          image: "/assets/coursesBanner/Holoo.png",
           title: "کار با نرم افزار هلو",
           price: "18,000,000 تومان",
           href: "/IntroCourse/Holoo",
@@ -128,7 +129,7 @@ export default function Page() {
         },
         {
           id: 14,
-          image: "assets/coursesBanner/Excel .png",
+          image: "/assets/coursesBanner/Excel .png",
           title: "Excel تخصصی",
           price: "9,600,000 تومان",
           href: "/IntroCourse/Excel",
@@ -142,7 +143,7 @@ export default function Page() {
       courses: [
         {
           id: 15,
-          image: "assets/coursesBanner/digitalCurrency.png",
+          image: "/assets/coursesBanner/digitalCurrency.png",
           title: "تحلیلگر بازارهای مالی بین لملل",
           price: "37,800,000 تومان",
           href: "/IntroCourse/cryptocurrency",
@@ -150,7 +151,7 @@ export default function Page() {
         },
         {
           id: 16,
-          image: "assets/coursesBanner/تحلیلگر تکنیکال .png",
+          image: "/assets/coursesBanner/تحلیلگر تکنیکال .png",
           title: "تحلیلگر تکنیکال",
           price: "41,763,617 تومان",
           href: "/IntroCourse/cryptocurrency2",
@@ -164,7 +165,7 @@ export default function Page() {
       courses: [
         {
           id: 17,
-          image: "assets/coursesBanner/v-ray.png",
+          image: "/assets/coursesBanner/v-ray.png",
           title: "V-ray",
           price: "--- تومان",
           href: "/IntroCourse/Vray",
@@ -172,7 +173,7 @@ export default function Page() {
         },
         {
           id: 18,
-          image: "assets/coursesBanner/3dMax.png",
+          image: "/assets/coursesBanner/3dMax.png",
           title: "3D MAX",
           price: "19,051,200 تومان",
           href: "/IntroCourse/3dmax",
@@ -180,7 +181,7 @@ export default function Page() {
         },
         {
           id: 19,
-          image: "assets/coursesBanner/Autocad.png",
+          image: "/assets/coursesBanner/Autocad.png",
           title: "Autocad",
           price: "17,102,647 تومان",
           href: "/IntroCourse/Autocad",
@@ -194,7 +195,7 @@ export default function Page() {
       courses: [
         {
           id: 20,
-          image: "assets/coursesBanner/مدیر ارشد .png",
+          image: "/assets/coursesBanner/مدیر ارشد .png",
           title: "MBA",
           price: "43,092,000 تومان",
           href: "/IntroCourse/MBA",
@@ -202,7 +203,7 @@ export default function Page() {
         },
         {
           id: 21,
-          image: "assets/coursesBanner/goldsmithing.png",
+          image: "/assets/coursesBanner/goldsmithing.png",
           title: "طلاسازی",
           price: "--- تومان",
           href: "/IntroCourse/goldsmithing",
@@ -210,7 +211,7 @@ export default function Page() {
         },
         {
           id: 22,
-          image: "assets/coursesBanner/nutrition.png",
+          image: "/assets/coursesBanner/nutrition.png",
           title: "تغذیه",
           price: "--- تومان",
           href: "/IntroCourse/nutrition",
@@ -218,7 +219,7 @@ export default function Page() {
         },
         {
           id: 23,
-          image: "assets/coursesBanner/tourism.png",
+          image: "/assets/coursesBanner/tourism.png",
           title: "گردشگری",
           price: "--- تومان",
           href: "/IntroCourse/tourism",
@@ -226,7 +227,7 @@ export default function Page() {
         },
         {
           id: 24,
-          image: "assets/coursesBanner/management.png",
+          image: "/assets/coursesBanner/management.png",
           title: "مدیریت",
           price: "--- تومان",
           href: "/IntroCourse/management",
@@ -234,7 +235,7 @@ export default function Page() {
         },
         {
           id: 25,
-          image: "assets/coursesBanner/negotiation.png",
+          image: "/assets/coursesBanner/negotiation.png",
           title: "مهارت نرم",
           price: "--- تومان",
           href: "/IntroCourse/negotiation",
@@ -242,7 +243,7 @@ export default function Page() {
         },
         {
           id: 26,
-          image: "assets/coursesBanner/ttcICDL.png",
+          image: "/assets/coursesBanner/ttcICDL.png",
           title: " ICDL تربیت مدرس",
           price: "--- تومان",
           href: "/IntroCourse/ttcICDL",
@@ -250,7 +251,7 @@ export default function Page() {
         },
         {
           id: 27,
-          image: "assets/coursesBanner/storagePage.png",
+          image: "/assets/coursesBanner/storagePage.png",
           title: "انبارداری",
           price: "18,144,000 تومان",
           href: "/IntroCourse/storegePage",
@@ -258,7 +259,7 @@ export default function Page() {
         },
         {
           id: 28,
-          image: "assets/coursesBanner/OAU.png",
+          image: "/assets/coursesBanner/OAU.png",
           title: "کاربر اتوماسیون اداری",
           price: "--- تومان",
           href: "/IntroCourse/OAU",
@@ -266,7 +267,7 @@ export default function Page() {
         },
         {
           id: 29,
-          image: "assets/coursesBanner/ttcCrypto.png",
+          image: "/assets/coursesBanner/ttcCrypto.png",
           title: "تربیت مدرس ارز دیجیتال",
           price: "--- تومان",
           href: "/IntroCourse/ttcCrypto",
@@ -274,7 +275,7 @@ export default function Page() {
         },
         {
           id: 30,
-          image: "assets/coursesBanner/ttcAccounting.png",
+          image: "/assets/coursesBanner/ttcAccounting.png",
           title: "تربیت مدرس حسابداری",
           price: "--- تومان",
           href: "/IntroCourse/ttcAccounting",
@@ -282,15 +283,15 @@ export default function Page() {
         },
         {
           id: 31,
-          image: "assets/coursesBanner/admin.png",
+          image: "/assets/coursesBanner/admin.png",
           title: "تولید محتوا",
           price: "--- تومان",
-          href: "/IntroCourse/adminP",
+          href: "/IntroCourse/adminPage",
           teacher: "ساناز فراهانی",
         },
         {
           id: 33,
-          image: "assets/coursesBanner/توسعه فردی .png",
+          image: "/assets/coursesBanner/توسعه فردی .png",
           title: "توسعه فردی",
           price: "43,092,000 تومان",
           href: "/IntroCourse/coaching",
@@ -298,7 +299,7 @@ export default function Page() {
         },
         {
           id: 34,
-          image: "assets/coursesBanner/پداگوژی .png",
+          image: "/assets/coursesBanner/پداگوژی .png",
           title: "پداگوژی",
           price: "10,886,400 تومان",
           href: "/IntroCourse/pedagogy",
@@ -309,55 +310,121 @@ export default function Page() {
   ];
 
   const [buttonIds, setButtonIds] = useState([]);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedCourse, setSelectedCourse] = useState("");
 
-  useEffect(() => {
-    const storedIds = localStorage.getItem("buttonIds");
-    if (storedIds) {
-      setButtonIds(JSON.parse(storedIds));
-    }
-  }, []);
+  const handleButtonClick = (id, title) => {
+    setSelectedCourse(title);
+    setShowModal(true);
+  };
 
-  useEffect(() => {
-    localStorage.setItem("buttonIds", JSON.stringify(buttonIds));
-    localStorage.setItem("buttonIdsLength", buttonIds.length);
-  }, [buttonIds]);
-
-  const handleButtonClick = (id) => {
-    setButtonIds((prevIds) => [...prevIds, id]);
-    window.location.reload();
+  const closeModal = () => {
+    setShowModal(false);
+    setSelectedCourse("");
   };
 
   return (
-    <div className="mx-auto px-10 m-2 min-h-screen">
-      <Tabs id="custom-animation" value="کامپیوتر">
-        <TabsHeader>
-          {data.map(({ label, value }) => (
-            <Tab key={value} value={value} className="font-fa bg-[#ffd700] font-bold h-auto">
-              {label}
-            </Tab>
-          ))}
-        </TabsHeader>
-        <TabsBody>
-          {data.map(({ value, courses }) => (
-            <TabPanel key={value} value={value} className="mt-6">
-              <div className="w-full md:flex md:justify-around md:align-middle font-fa flex-wrap">
-                {courses.map(({ image, title, price, href, teacher, id }) => (
-                  <CourseCard
-                    key={id}
-                    title={title}
-                    href={href}
-                    price={price}
-                    image={image}
-                    teacher={teacher}
-                    id={id}
-                    onButtonClick={handleButtonClick}
-                  />
-                ))}
+    <>
+      <Head>
+        <title>دوره‌های آموزشی کامپیوتر، حسابداری و ارز دیجیتال | آموزشگاه بشارت</title>
+        <meta name="description" content="مشاهده و ثبت‌نام در دوره‌های تخصصی کامپیوتر، حسابداری، ارز دیجیتال، طراحی وب، فتوشاپ، ICDL، MBA و بیش از ۳۰ دوره مهارتی دیگر با مدرک معتبر از سازمان فنی و حرفه‌ای" />
+        <meta name="keywords" content="دوره آموزشی, کامپیوتر, حسابداری, ارز دیجیتال, طراحی وب, فتوشاپ, ICDL, MBA, بشارت, ثبت نام دوره" />
+      </Head>
+      <div className="mx-auto m-2 min-h-screen bg-white">
+        <Tabs id="custom-animation" value="کامپیوتر">
+          <TabsHeader className="bg-[#000080] rounded-xl p-1">
+            {data.map(({ label, value }) => (
+              <Tab 
+                key={value} 
+                value={value} 
+                className="font-fa font-bold h-auto text-[#1A1A2E] data-[selected=true]:bg-[#D4AF37] data-[selected=true]:text-white transition-all rounded-lg"
+                activeClassName="bg-[#D4AF37] text-white shadow-lg shadow-[#D4AF37]/30"
+              >
+                {label}
+              </Tab>
+            ))}
+          </TabsHeader>
+          <TabsBody>
+            {data.map(({ value, courses }) => (
+              <TabPanel key={value} value={value} className="mt-6">
+                <div className="w-full md:flex md:justify-around md:align-middle font-fa flex-wrap">
+                  {courses.map(({ image, title, price, href, teacher, id }) => (
+                    <CourseCard
+                      key={id}
+                      title={title}
+                      href={href}
+                      price={price}
+                      image={image}
+                      teacher={teacher}
+                      id={id}
+                      onButtonClick={() => handleButtonClick(id, title)}
+                    />
+                  ))}
+                </div>
+              </TabPanel>
+            ))}
+          </TabsBody>
+        </Tabs>
+
+        {showModal && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
+            <div 
+              className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+              onClick={closeModal}
+            ></div>
+            
+            <div className="relative bg-white rounded-2xl max-w-md w-full shadow-2xl border border-[#D4AF37]/30 animate-[fadeIn_0.3s_ease-out] overflow-hidden">
+              <div className="bg-gradient-to-r from-[#D4AF37] to-[#B8960F] p-4 text-center">
+                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-white font-bold text-xl">ثبت نام غیرفعال</h3>
               </div>
-            </TabPanel>
-          ))}
-        </TabsBody>
-      </Tabs>
-    </div>
+              
+              <div className="p-6 text-center">
+                <p className="text-[#1A1A2E] text-lg font-semibold mb-2">
+                  دوره {selectedCourse}
+                </p>
+                <p className="text-[#1A1A2E] text-base leading-relaxed">
+                  در حال حاضر امکان ثبت‌نام به صورت آنلاین وجود ندارد.
+                </p>
+                <div className="mt-4 p-3 bg-[#F8F9FA] rounded-xl border border-[#E8E8F0]">
+                  <p className="text-[#000080] text-sm font-medium">
+                    📞 برای ثبت‌نام با شماره‌های زیر تماس بگیرید:
+                  </p>
+                  <p className="text-[#D4AF37] font-bold text-base mt-1">
+                    ۰۹۳۰۲۷۵۸۸۸۱
+                  </p>
+                </div>
+              </div>
+              
+              <div className="p-4 bg-[#F8F9FA] border-t border-[#E8E8F0]">
+                <button
+                  onClick={closeModal}
+                  className="w-full bg-[#D4AF37] hover:bg-[#B8960F] text-white font-bold py-3 rounded-xl transition-all shadow-md hover:shadow-lg"
+                >
+                  متوجه شدم
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        <style jsx>{`
+          @keyframes fadeIn {
+            from {
+              opacity: 0;
+              transform: scale(0.95) translateY(20px);
+            }
+            to {
+              opacity: 1;
+              transform: scale(1) translateY(0);
+            }
+          }
+        `}</style>
+      </div>
+    </>
   );
 }

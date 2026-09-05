@@ -17,6 +17,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { KeyIcon, UserIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import Image from "next/image"; 
 import {
   Button,
   IconButton,
@@ -26,64 +27,59 @@ import {
   MenuList,
 } from "@material-tailwind/react";
 import useAuth from "@/hooks/useAuth";
+import { usePathname } from "next/navigation";
 
 const links = [
   {
     name: "دوره های آموزشی",
     href: "/courses",
-    logo: <BookOpenIcon className="w-6 h-6 text-[#ffd700]" />,
+    logo: <BookOpenIcon className="w-6 h-6 text-[#D4AF37]" />, 
   },
   {
     name: "درباره ما",
     href: "/aboutUs",
-    logo: <QuestionMarkCircleIcon className="w-6 h-6 text-[#ffd700]" />,
+    logo: <QuestionMarkCircleIcon className="w-6 h-6 text-[#D4AF37]" />, 
   },
   {
     name: "ارتباط با ما",
     href: "/contact",
-    logo: <LinkIcon className="w-6 h-6 text-[#ffd700]" />,
+    logo: <LinkIcon className="w-6 h-6 text-[#D4AF37]" />, 
   },
   {
     name: "دیپلم",
     href: "/DiplomaPage",
-    logo: <AcademicCapIcon className="w-6 h-6 text-[#ffd700]" />,
+    logo: <AcademicCapIcon className="w-6 h-6 text-[#D4AF37]" />, 
   },
   {
     name: "تاجر شو",
     href: "/TajershooPage",
-    logo: <CurrencyDollarIcon className="w-6 h-6 text-[#ffd700]" />,
+    logo: <CurrencyDollarIcon className="w-6 h-6 text-[#D4AF37]" />, 
   },
   {
     name: "رزومه اساتید",
     href: "/resume",
-    logo: <UserGroupIcon className="w-6 h-6" />,
+    logo: <UserGroupIcon className="w-6 h-6 text-[#D4AF37]" />, 
   },
   {
     name: "نمونه کار کارآموزان",
     href: "/portfolio",
-    logo: <ClipboardDocumentListIcon className="w-6 h-6 text-[#ffd700]" />,
+    logo: <ClipboardDocumentListIcon className="w-6 h-6 text-[#D4AF37]" />, 
   },
-  // {
-  //   name: "ثبت سفارش",
-  //   href: "/order",
-  //   logo: <ArrowDownOnSquareIcon className="w-6 h-6 text-[#ffd700]" />,
-  // },
-
 ];
 
-const MobileNav = ({ links }) => {
+const MobileNav = ({ links, closeMenu }) => {
   return (
-    <div className="w-full py-4 lg:hidden">
+    <div className="w-full py-4 lg:hidden" onClick={closeMenu}>
       <div className="flex flex-col items-center gap-4">
         {links
           ? links.map((link, i) => (
               <Link
                 key={i}
                 href={link.href}
-                className="ml-5 rounded-xl p-1 hover:text-[#6b36cc] cursor-pointer inline-flex hover:underline text-[#ffd700]"
+                className="ml-5 rounded-xl p-1 hover:text-[#000080] cursor-pointer inline-flex hover:underline text-[#D4AF37] transition-colors w-full justify-center"
               >
                 {link.logo}
-                <span className="mr-1 text-[#ffd700]">{link.name}</span>
+                <span className="mr-1 text-[#000080]">{link.name}</span>
               </Link>
             ))
           : null}
@@ -100,8 +96,7 @@ const DesktopNav = ({ links }) => {
           <Link key={i} href={link.href}>
             <Button
               variant="text"
-              color="indigo"
-              className="text-[#ffd700] font-fa btn-flex text-base"
+              className="text-[#000080] font-fa btn-flex text-base transition-colors" 
             >
               {link.logo}
               <span className="mr-1">{link.name}</span>
@@ -115,13 +110,16 @@ const DesktopNav = ({ links }) => {
 
 export default function Header() {
   const auth = useAuth();
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const handleMenuClick = () => {
     setIsOpen(!isOpen);
   };
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
   const [buttonIdsLength, setButtonIdsLength] = useState(0);
 
-  // Load the length of buttonIds from local storage when the component mounts
   useEffect(() => {
     const storedArray = localStorage.getItem("buttonIds");
     if (storedArray) {
@@ -141,7 +139,6 @@ export default function Header() {
     }
   }, []);
 
-  // Monitor changes to local storage
   useEffect(() => {
     const handleStorageChange = (event) => {
       if (event.key === "buttonIds") {
@@ -170,48 +167,47 @@ export default function Header() {
     };
   }, []);
 
-  // Function to clear local storage and reset state
-  const clearLocalStorage = () => {
-    localStorage.removeItem("buttonIds");
-    setButtonIdsLength(0);
-  };
+  // بستن منو هنگام تغییر مسیر
+  useEffect(() => {
+    closeMenu();
+  }, [pathname]);
 
   return (
-    <header className="sticky top-0 start-0 end-0 px-2 bg-[#020621] shadow-md bg-base-100 z-50 py-4">
+    <header className="sticky top-0 start-0 end-0 px-2 bg-white shadow-md z-50 py-4 border-b border-[#E8E8F0]">
       <div className="flex justify-between items-center align-center max-w-full mx-auto">
-        <div className={`flex justify-around gap-2 ${isOpen ? "block" : ""}`}>
-         
-
-          <IconButton
-            variant="outlined"
-            size="lg"
-            className="btn-flex bg-[#ffd700] border-[#ffd700] relative"
-          >
-            <ShoppingCartIcon className="w-7 h-7 text-blue-900" />
-           
-          </IconButton>
-          <span className="absolute top-1 right-1 flex h-5 w-5 z-50">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-300 opacity-75"></span>
-            <span className="rounded-full w-5 h-5 text-center -pb-2 bg-red-500 text-white">{buttonIdsLength}</span>
-          </span>
+        <div className="flex justify-around gap-2">
+          <div className="relative"> 
+            <IconButton
+              variant="outlined"
+              size="lg"
+              className="btn-flex border-[#D4AF37] hover:border-[#B8960F] bg-[#000080] hover:bg-[#B8960F] transition-all duration-300 group"
+            >
+              <ShoppingCartIcon className="w-7 h-7 text-[#D4AF37] group-hover:text-[#000080] transition-all duration-300" /> 
+            </IconButton>
+            <span className="absolute -top-1 -right-1 flex h-5 w-5 z-50">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-300 opacity-75"></span>
+              <span className="rounded-full w-5 h-5 text-center bg-red-500 text-white text-sm font-bold">
+                {buttonIdsLength}
+              </span>
+            </span>
+          </div>
 
           {auth.loggedIn ? (
             <Menu>
               <MenuHandler>
-                <Button variant="gradient" color="indigo" className="btn-flex">
+                <Button variant="gradient" className="btn-flex bg-gradient-to-r from-[#000080] to-[#1A1A99] text-white hover:shadow-lg transition-all">
                   <UserIcon className="w-6 h-6" />
                 </Button>
               </MenuHandler>
-              <MenuList dir="ltr" className="font-fa text-base">
-                <MenuItem className="font-bold text-center">
-                  {" "}
-                  {auth.profile.username}{" "}
+              <MenuList dir="ltr" className="font-fa text-base bg-white border-[#E8E8F0]">
+                <MenuItem className="font-bold text-center text-[#1A1A2E]">
+                  {auth.profile.username}
                 </MenuItem>
-                <MenuItem className="flex justify-end items-center gap-1">
+                <MenuItem className="flex justify-end items-center gap-1 text-[#1A1A2E] hover:text-[#000080] transition-colors">
                   <div>حساب کاربری</div>
                   <UserIcon className="w-6 h-6" />
                 </MenuItem>
-                <MenuItem className="flex justify-end items-center gap-1 text-red-400 hover:!text-red-500">
+                <MenuItem className="flex justify-end items-center gap-1 text-red-400 hover:!text-red-500 transition-colors">
                   <div>خروج</div>
                   <KeyIcon className="w-6 h-6" />
                 </MenuItem>
@@ -220,41 +216,50 @@ export default function Header() {
           ) : (
             <Link href="/auth/login/">
               <Button
-                className="font-fa btn-flex text-base rounded-full bg-[#ffd700]" disabled
+                className="font-fa btn-flex text-base rounded-full bg-[#000080] hover:bg-[#B8960F] transition-all duration-300 shadow-md hover:shadow-lg group"
               >
-                <ArrowRightOnRectangleIcon className="w-6 h-6 text-blue-900" />
-                <span className="text-blue-900">ورود</span>
+                <ArrowRightOnRectangleIcon className="w-6 h-6 text-[#D4AF37] group-hover:text-[#000080] transition-colors duration-300" /> 
+                <span className="text-[#D4AF37] group-hover:text-[#000080] transition-colors duration-300">ورود</span> 
               </Button>
             </Link>
           )}
         </div>
 
-        <div
-          className={`md:flex justify-around ${
-            isOpen ? "flex" : "hidden"
-          } w-auto`}
-        >
+        <div className="hidden md:flex justify-around w-auto">
           <DesktopNav links={links} />
         </div>
 
         <div className="cursor-pointer flex items-center">
           <Link href="/">
-            <img
-              src="/assets/brand_logo.png"
-              className="hidden lg:block w-[120px] -m-3"
-              alt="logo"
-            />
-            <img
-              src="/assets/brand_purelogo.png"
-              className="lg:hidden w-[50px]"
-              alt="logo2"
-            />
+            <div className="hidden lg:block">
+              <Image
+                src="/assets/brand_logo.png"
+                alt="logo"
+                width={120}
+                height={40}
+                priority
+                className="w-[150px] h-auto -mt-8"
+                quality={85}
+              />
+            </div>
+            <div className="lg:hidden">
+              <Image
+                src="/assets/brand_purelogo.png"
+                alt="logo2"
+                width={50}
+                height={50}
+                priority
+                className="w-[50px] h-auto"
+                quality={85}
+                unoptimized
+              />
+            </div>
           </Link>
           <div className="lg:hidden ps-4 pt-1">
             <IconButton
               size="lg"
               variant="text"
-              className="text-[#ffd700]"
+              className="text-[#000080] hover:text-[#1A1A99] transition-colors"
               onClick={handleMenuClick}
             >
               {isOpen ? (
@@ -266,7 +271,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      {isOpen ? <MobileNav links={links} /> : null}
+      {isOpen ? <MobileNav links={links} closeMenu={closeMenu} /> : null}
     </header>
   );
 }

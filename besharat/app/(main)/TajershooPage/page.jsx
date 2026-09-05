@@ -1,10 +1,18 @@
+export const metadata = {
+  title: 'دوره تاجر شو | تجارت بین‌الملل و صادرات',
+  description: 'دوره تخصصی تجارت بین‌الملل و استراتژی‌های صادرات و واردات با تدریس اساتید مجرب | آموزش مذاکره، بازاریابی جهانی و کاربرد هوش مصنوعی در صادرات',
+  keywords: 'تاجر شو, تجارت بین الملل, صادرات, واردات, بازاریابی جهانی, مذاکره تجاری, هوش مصنوعی در تجارت, بشارت',
+}
+
+
 export default function TajershooPage() {
   return (
-    <div className="min-h-screen max-w-7xl p-4 mx-auto text-white" dir="rtl">
+    <div className="min-h-screen max-w-7xl p-4 mx-auto rounded-2xl text-[#1A1A2E]" dir="rtl">
     
-      <h1 className="text-3xl font-extrabold flex justify-center mb-6 text-[#ffd700]">
+      <h1 className="text-3xl font-extrabold flex justify-center my-6 text-[#D4AF37]">
         دوره «تاجر شو»؛ مسیر حرفه‌ای شما به سوی تجارت جهانی
       </h1>
+      <div className="w-36 h-1 bg-[#D4AF37] mx-auto mb-8 rounded-full"></div>
 
       {/* مقدمه */}
       <p className="text-lg leading-10 mb-6">
@@ -12,7 +20,7 @@ export default function TajershooPage() {
       </p>
 
       {/* معرفی دوره */}
-      <h2 className="text-2xl font-bold mt-10 mb-4 text-[#ffd700]">
+      <h2 className="text-2xl font-bold mt-10 mb-4 text-[#000080]">
         «تاجر شو» چیست و برای چه کسانی طراحی شده است؟
       </h2>
       <p className="text-lg leading-10 mb-6">
@@ -20,26 +28,26 @@ export default function TajershooPage() {
       </p>
 
       {/* سرفصل‌های تخصصی */}
-      <h2 className="text-2xl font-bold mt-10 mb-4 text-[#ffd700]">
+      <h2 className="text-2xl font-bold mt-10 mb-4 text-[#000080]">
         سرفصل‌های تخصصی دوره (آنچه در «تاجر شو» یاد خواهید گرفت)
       </h2>
       <p className="text-lg leading-10 mb-4">
         این دوره با تمرکز بر مهارت‌های عملی و قابل اجرا در دنیای واقعی طراحی شده است. سرفصل‌های آن به گونه‌ای چیده شده که شما را گام به گام با فرآیند تبدیل یک ایده به یک کسب‌وکار صادراتی موفق آشنا می‌کند:
       </p>
-      <ul className="list-disc m-5 mr-8 text-[#ffd700] text-lg leading-10">
-        <li><strong className="text-white">تحقیقات بازار بین‌الملل:</strong> یادگیری روش‌های علمی برای شناسایی بازارهای هدف، تحلیل رقبا، و درک نیازهای مشتریان در کشورهای مختلف.</li>
-        <li><strong className="text-white">انتخاب و توسعه محصول صادراتی:</strong> چگونه محصول یا خدمت مناسب برای صادرات را انتخاب کنیم و آن را برای بازارهای خارجی تطبیق دهیم.</li>
-        <li><strong className="text-white">مذاکره مؤثر و فروش بین‌المللی:</strong> تکنیک‌های پیشرفته مذاکره با خریداران خارجی، آشنایی با فرهنگ‌های تجاری مختلف و اصول عقد قراردادهای موفق.</li>
-        <li><strong className="text-white">کاربرد هوش مصنوعی در صادرات:</strong> آشنایی با ابزارهای نوین هوش مصنوعی برای تحلیل بازار، شخصی‌سازی ارتباطات و بهینه‌سازی فرآیندهای بازاریابی و فروش بین‌المللی.</li>
-        <li><strong className="text-white">استراتژی‌های بازاریابی و برندسازی جهانی:</strong> چگونه یک برند را در سطح بین‌المللی معرفی کنیم و استراتژی‌های بازاریابی مؤثر برای بازارهای جدید طراحی کنیم.</li>
-        <li><strong className="text-white">خلق ارزش و مدل‌های کسب‌وکار صادراتی:</strong> طراحی مدل‌های نوآورانه برای ایجاد ارزش پایدار در زنجیره تأمین و صادرات.</li>
+      <ul className="list-disc m-5 mr-8 text-[#D4AF37] text-lg leading-10 font-bold">
+        <li><strong className="text-[#000080]">تحقیقات بازار بین‌الملل:</strong> یادگیری روش‌های علمی برای شناسایی بازارهای هدف، تحلیل رقبا، و درک نیازهای مشتریان در کشورهای مختلف.</li>
+        <li><strong className="text-[#000080]">انتخاب و توسعه محصول صادراتی:</strong> چگونه محصول یا خدمت مناسب برای صادرات را انتخاب کنیم و آن را برای بازارهای خارجی تطبیق دهیم.</li>
+        <li><strong className="text-[#000080]">مذاکره مؤثر و فروش بین‌المللی:</strong> تکنیک‌های پیشرفته مذاکره با خریداران خارجی، آشنایی با فرهنگ‌های تجاری مختلف و اصول عقد قراردادهای موفق.</li>
+        <li><strong className="text-[#000080]">کاربرد هوش مصنوعی در صادرات:</strong> آشنایی با ابزارهای نوین هوش مصنوعی برای تحلیل بازار، شخصی‌سازی ارتباطات و بهینه‌سازی فرآیندهای بازاریابی و فروش بین‌المللی.</li>
+        <li><strong className="text-[#000080]">استراتژی‌های بازاریابی و برندسازی جهانی:</strong> چگونه یک برند را در سطح بین‌المللی معرفی کنیم و استراتژی‌های بازاریابی مؤثر برای بازارهای جدید طراحی کنیم.</li>
+        <li><strong className="text-[#000080]">خلق ارزش و مدل‌های کسب‌وکار صادراتی:</strong> طراحی مدل‌های نوآورانه برای ایجاد ارزش پایدار در زنجیره تأمین و صادرات.</li>
       </ul>
 
       {/* مخاطبان دوره */}
-      <h2 className="text-2xl font-bold mt-10 mb-4 text-[#ffd700]">
+      <h2 className="text-2xl font-bold mt-10 mb-4 text-[#000080]">
         این دوره دقیقاً برای چه کسانی مناسب است؟
       </h2>
-      <ul className="list-disc m-5 mr-8 text-lg leading-10">
+      <ul className="list-disc m-5 mr-8 text-lg leading-10 text-[#1A1A2E]">
         <li>کارآفرینان و صاحبان کسب‌وکارهای نوپا که قصد ورود به عرصه صادرات را دارند.</li>
         <li>مدیران و فعالان اقتصادی که به دنبال توسعه بازارهای فروش خود در خارج از کشور هستند.</li>
         <li>تولیدکنندگان و فعالان صنعتی که می‌خواهند محصولات خود را به برندهای بین‌المللی معرفی کنند.</li>
@@ -48,21 +56,21 @@ export default function TajershooPage() {
       </ul>
 
       {/* مزایا و دستاوردها */}
-      <h2 className="text-2xl font-bold mt-10 mb-4 text-[#ffd700]">
+      <h2 className="text-2xl font-bold mt-10 mb-4 text-[#000080]">
         چرا «تاجر شو» بشارت؟ مزایای منحصربه‌فرد این دوره
       </h2>
       <p className="text-lg leading-10 mb-6">
         در کنار سرفصل‌های به‌روز و کاربردی، شرکت در این دوره در آموزشگاه بشارت مزایای دیگری نیز برای شما به ارمغان می‌آورد:
       </p>
-      <ul className="list-disc m-5 mr-8 text-[#ffd700] text-lg leading-10">
-        <li><strong className="text-white">تدریس توسط اساتید باتجربه و متخصصین حوزه تجارت:</strong> بهره‌مندی از دانش و تجربه عملی مدرسانی که خود در عرصه تجارت بین‌الملل فعال بوده‌اند.</li>
-        <li><strong className="text-white">رویکرد کاملاً عملی و پروژه‌محور:</strong> شما در طول دوره روی یک پروژه واقعی کار خواهید کرد و نتیجه آن را می‌توانید برای کسب‌وکار خود به کار بگیرید.</li>
-        <li><strong className="text-white">شبکه‌سازی هدفمند با فعالان اقتصادی:</strong> فرصت ارتباط و تبادل نظر با مدیران، کارآفرینان و تجاری که در این دوره حضور دارند.</li>
-        <li><strong className="text-white">دریافت گواهینامه معتبر از آموزشگاه بشارت:</strong> مدرکی که نشان‌دهنده توانمندی شما در حوزه تجارت و صادرات است.</li>
+      <ul className="list-disc m-5 mr-8 text-[#D4AF37] text-lg leading-10 font-bold">
+        <li><strong className="text-[#000080]">تدریس توسط اساتید باتجربه و متخصصین حوزه تجارت:</strong> بهره‌مندی از دانش و تجربه عملی مدرسانی که خود در عرصه تجارت بین‌الملل فعال بوده‌اند.</li>
+        <li><strong className="text-[#000080]">رویکرد کاملاً عملی و پروژه‌محور:</strong> شما در طول دوره روی یک پروژه واقعی کار خواهید کرد و نتیجه آن را می‌توانید برای کسب‌وکار خود به کار بگیرید.</li>
+        <li><strong className="text-[#000080]">شبکه‌سازی هدفمند با فعالان اقتصادی:</strong> فرصت ارتباط و تبادل نظر با مدیران، کارآفرینان و تجاری که در این دوره حضور دارند.</li>
+        <li><strong className="text-[#000080]">دریافت گواهینامه معتبر از آموزشگاه بشارت:</strong> مدرکی که نشان‌دهنده توانمندی شما در حوزه تجارت و صادرات است.</li>
       </ul>
 
       {/* جمع‌بندی و دعوت به اقدام */}
-      <h2 className="text-2xl font-bold mt-10 mb-4 text-[#ffd700]">
+      <h2 className="text-2xl font-bold mt-10 mb-4 text-[#000080]">
         آماده‌اید تا یک تاجر حرفه‌ای شوید؟
       </h2>
       <p className="text-lg leading-10 mb-6">
