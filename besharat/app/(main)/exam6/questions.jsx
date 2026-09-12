@@ -79,7 +79,7 @@ export const questionsBank = [
   {
     id: 8,
     question: "قابلیت کوچک نمایی برای مشاهده کل اطلاعات به صورت یکجا را ...... می گویند.",
-    answer: "Zoom Out",
+    answer: "Zoom In",
     options: [
       "Zoom In",
       "Zoom Out",
@@ -530,7 +530,7 @@ export const questionsBank = [
   {
     id: 49,
     question: "از نمای ................. در نرم افزار میتوان برای نمایش اسلایدهای طراحی شده به شرکت کنندگان در جلسه استفاده کرد.",
-    answer: "Slide Show",
+    answer:  "Slide Show",
     options: [
       "Slide Sorter",
       "Normal",
@@ -607,7 +607,8 @@ export const questionsBank = [
   {
     id: 56,
     question: "جهت خروج از نرم افزار PowerPoint 2013 کدام گزینه مناسب است؟",
-    answer: "کلیدهای ترکیبی Alt + F4",
+    answer: "از دکمه File گزینه Exit",
+
     options: [
       "کلیدهای ترکیبی Alt + F3",
       "از دکمه File گزینه Exit",
@@ -750,7 +751,7 @@ export const questionsBank = [
   {
     id: 69,
     question: "برای تغییر رنگ پس زمینه اسلاید از سربرگ ....... گروه ....... و زیر گروه ....... را انتخاب می کنیم.",
-    answer: "Design > Variants > Background Styles",
+    answer:  "Design > Customize > Format Background",
     options: [
       "Design > Variants > Colors",
       "Design > Variants > Background Styles",
@@ -904,7 +905,7 @@ export const questionsBank = [
   {
     id: 83,
     question: "برای درج تاریخ و شماره بر روی اسلایدها کدام ابزار مناسب است؟",
-    answer: "Header and Footer",
+    answer:  "Comment",
     options: [
       "Word Art",
       "Header and Footer",
@@ -1388,7 +1389,7 @@ export const questionsBank = [
   {
     id: 127,
     question: "برای تعیین محدوده چاپ از کدام گزینه استفاده می شود؟",
-    answer: "Print",
+    answer:"Set Print Area",
     options: [
       "Print Title",
       "All",
@@ -1520,7 +1521,7 @@ export const questionsBank = [
   {
     id: 139,
     question: "یک فایل PowerPoint با کدام یک از پسوندهای Word قابل ذخیره سازی است؟",
-    answer: "Rtf",
+    answer:"Docx",
     options: [
       "Rtf",
       "Doc",

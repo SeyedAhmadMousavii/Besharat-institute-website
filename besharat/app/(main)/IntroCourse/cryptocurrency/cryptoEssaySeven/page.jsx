@@ -5,7 +5,7 @@ const DigitalCurrency = () => {
     <div className="text-[#1A1A2E] container mx-auto bg-white p-6">
       <div className="w-2/3 h-80 rounded-2xl flex justify-center m-auto my-3">
         <Image
-          src="/assets/maghalat/maghale7arz.jpg"
+          src="/assets/maghalat/maghale7arz.webp"
           alt="maghale-banner"
           width={800}
           height={400}

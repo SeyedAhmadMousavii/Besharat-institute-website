@@ -189,7 +189,7 @@ export const questionsBank = [
   {
     id: 18,
     question: "به دریافت فایل از اینترنت ......... و ارسال فایل به اینترنت را ......... می گویند.",
-    answer: "Download-Upload",
+   answer:"Upload-Download",
     options: [
       "Sending-Receiving",
       "Download-Upload",
@@ -277,7 +277,7 @@ export const questionsBank = [
   {
     id: 26,
     question: "به نرم افزاری که مصرف کننده برای مدت مشخصی به طور آزمایشی و رایگان از آن استفاده می کند ولی بعد از مدتی غیر قابل استفاده می شود چه می گویند؟",
-    answer: "Demo",
+    answer:"Shareware",
     options: [
       "Freeware",
       "Demo",
@@ -563,7 +563,8 @@ export const questionsBank = [
   {
     id: 52,
     question: "کدام یک از گزینه های زیر نادرست است؟",
-    answer: "اینترنت شبکه ای خصوصی است که بر اساس قوانین و پروتکل های اینترنت ایجاد می شود ولی به اینترنت متصل نیست.",
+    answer:  "اینترنت یک شبکه جهانی می باشد",
+
     options: [
       "مودم سیگنال های دیجیتال یک کامپیوتر را به سیگنال های آنالوگ یا بالعکس تبدیل می کند.",
       "اینترنت یک شبکه جهانی می باشد",
@@ -596,7 +597,7 @@ export const questionsBank = [
   {
     id: 55,
     question: "کدام گزینه یک کامپیوتر شخصی محسوب می شود؟",
-    answer: "Desktop",
+    answer: "Laptop",
     options: [
       "Desktop",
       "Laptop",
@@ -673,7 +674,7 @@ export const questionsBank = [
   {
     id: 62,
     question: "کدام یک از تعاریف صحیح می باشد؟",
-    answer: "ظرفیت حافظه های جانبی از اصلی بیشتر است.",
+    answer:  "سرعت حافظه اصلی از جانبی بیشتر و ظرفیت آن کمی است",
     options: [
       "سرعت حافظه اصلی از جانبی کمتر است",
       "ظرفیت ذخیره در حافظه اصلی و جانبی یکسان است",
@@ -750,7 +751,7 @@ export const questionsBank = [
   {
     id: 69,
     question: "در تقسیم بندی سطح دیسک، استوانه یا سیلندر به چه چیزی اطلاق می شود؟",
-    answer: "مجموعه ای از قطعات هم شماره در یک دیسک چند صفحه ای",
+    answer:  "مجموعه ای شیارها با شعاع یکسان",
     options: [
       "مجموعه ای شیارها با شعاع یکسان",
       "مجموعه ای از قطعات هم شماره در یک دیسک چند صفحه ای",
@@ -970,7 +971,7 @@ export const questionsBank = [
   {
     id: 89,
     question: "کامپیوتر هنگام بالا آمدن از اطلاعات ذخیره شده چه حافظه ای استفاده می کند و سیستم عامل را لود می کند؟",
-    answer: "ROM",
+    answer:"CMOS",
     options: [
       "ROM",
       "PROM",
@@ -1058,7 +1059,7 @@ export const questionsBank = [
   {
     id: 97,
     question: "حافظه ای با دسترسی تصادفی و .................... حافظه ای فقط خواندنی است.",
-    answer: "RAM-ROM",
+    answer: "ROM-RAM",
     options: [
       "ROM-RAM",
       "Cache-ROM",
@@ -1245,7 +1246,7 @@ export const questionsBank = [
   {
     id: 114,
     question: "یک WORD از چند بایت تشکیل شده است؟",
-    answer: "2",
+    answer: "4",
     options: [
       "1",
       "4",
@@ -1267,7 +1268,7 @@ export const questionsBank = [
   {
     id: 116,
     question: "در کدام نوع از دیسک ها برای دسترسی به اطلاعات از پرتو لیزر استفاده می شود؟",
-    answer: "CD-DVD",
+    answer: "CD",
     options: [
       "فلاپی دیسک",
       "CD",
@@ -1630,7 +1631,7 @@ export const questionsBank = [
   {
     id: 149,
     question: "به رایانه گیرنده اطلاعات ................. و به رایانه ای که فرستنده اطلاعات است ................. می گویند.",
-    answer: "Client-Server",
+    answer: "Server-Client",
     options: [
       "کانال انتقال-Server",
       "Server-کانال انتقال",
@@ -1707,7 +1708,7 @@ export const questionsBank = [
   {
     id: 156,
     question: "برای نگهداری موقت داده های در حال پردازش از کدام مورد استفاده می شود؟",
-    answer: "Cache",
+    answer:"Register",
     options: [
       "CU",
       "ALU",
@@ -2070,7 +2071,7 @@ export const questionsBank = [
   {
     id: 189,
     question: "کدام شبکه توسط افراد خارج از سازمان قابل دسترسی است؟",
-    answer: "اینترنت",
+    answer:  "اکسترانت",
     options: [
       "اینترانت",
       "اکسترانت",

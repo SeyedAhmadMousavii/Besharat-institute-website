@@ -9,7 +9,7 @@ const ProfessorsSection = () => {
       name: "ساناز فراهانی",
       title: "مدیریت مجموعه",
       bio: "کارآفرین برتر در غرب استان تهران با بیش از 26 سال سابقه درخشان در حوزه کامپیوتر، هوش مصنوعی، MBA و ارز دیجیتال",
-      image: "/assets/partner/ساناز-فراهانی.jpg",
+      image: "/assets/partner/ساناز-فراهانی.webp",
       resume: "/assets/file/ساناز-فراهانی.pdf"
     },
     {
@@ -17,7 +17,7 @@ const ProfessorsSection = () => {
       name: "ایلیا درخشان",
       title: "مدرس مجموعه",
       bio: "مدرس و تحلیلگر بازارهای مالی بین الملل، فعال در حوزه ارز دیجیتال و ترید، همراه با تدریس دوره جامع MBA ویژه مدیران و کارآفرینان",
-      image: "/assets/partner/ایلیا-درخشان.jpg",
+      image: "/assets/partner/ایلیا-درخشان.webp",
       resume: "/assets/file/ایلیا-درخشان.pdf"
     },
     {
@@ -25,7 +25,7 @@ const ProfessorsSection = () => {
       name: "سیداحمد موسوی",
       title: "مدرس مجموعه",
       bio: "مدرس و تحلیلگر بازارهای مالی بین الملل و همچنین مدرس دوره های ICDL، طراحی سایت، برنامه نویسی، فتوشاپ، همراه با تدریس دوره جامع MBA ویژه مدیران و کارآفرینان",
-      image: "/assets/partner/سیداحمد-موسوی.jpg",
+      image: "/assets/partner/سیداحمد-موسوی.webp",
       resume: "/assets/file/سیداحمد-موسوی.pdf"
     },
   ];

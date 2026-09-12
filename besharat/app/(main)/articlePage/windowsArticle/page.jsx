@@ -4,7 +4,7 @@ const windows = () => {
     return ( 
         <div className="text-[#1A1A2E] container mx-auto bg-white p-6">
             <div className="w-2/3 rounded-2xl flex justify-center m-auto mb-3">
-            <Image src="/assets/maghalat/maghale-windows.jpg" alt="maghale-banner" width={800} height={400} className="w-full h-auto rounded-2xl" />
+            <Image src="/assets/maghalat/maghale-windows.webp" alt="maghale-banner" width={800} height={400} className="w-full h-auto rounded-2xl" />
             </div>
             <h1 className="text-3xl font-extrabold flex justify-center mb-4 text-[#D4AF37]">آشنایی با ویندوز</h1>
             <p className="leading-relaxed mb-2">با بزرگتر شدن فضای کاربری سیستم های کامپیوتر به احتمال زیاد شما هم با ویندوز کار کرده اید؛ اما آیا میدانید سیستم عامل ویندوز چیست؟</p>

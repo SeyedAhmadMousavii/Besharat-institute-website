@@ -82,7 +82,7 @@ const digitalCurrency = () => {
       </p>
       <div className="w-2/3 rounded-2xl flex justify-center m-auto my-3">
         <Image
-          src="/assets/maghalat/maghale3arzpic1.png"
+          src="/assets/maghalat/maghale3arzpic1.webp"
           alt="maghale-banner"
           width={800}
           height={400}
@@ -157,7 +157,7 @@ const digitalCurrency = () => {
       <p className="leading-relaxed mb-2"> نمودار شاخص دلار: تغییرات قیمتی 5.36%+</p>
       <div className="w-2/3 rounded-2xl flex justify-center m-auto my-3">
         <Image
-          src="/assets/maghalat/maghale3arzpic2.png"
+          src="/assets/maghalat/maghale3arzpic2.webp"
           alt="maghale-banner"
           width={800}
           height={400}
@@ -167,7 +167,7 @@ const digitalCurrency = () => {
       <p className="leading-relaxed mb-2"> نمودار طلا: تغییرات قیمتی 17%+</p>
       <div className="w-2/3 rounded-2xl flex justify-center m-auto my-3">
           <Image
-            src="/assets/maghalat/maghale3arzpic3.png"
+            src="/assets/maghalat/maghale3arzpic3.webp"
             alt="maghale-banner"
             width={800}
             height={400}
@@ -178,7 +178,7 @@ const digitalCurrency = () => {
       <p className="leading-relaxed mb-2 font-bold text-[#000080]">نمودار نفت</p>
       <div className="w-2/3 rounded-2xl flex justify-center m-auto my-3">
           <Image
-            src="/assets/maghalat/maghale3arzpic4.png"
+            src="/assets/maghalat/maghale3arzpic4.webp"
             alt="maghale-banner"
             width={800}
             height={400}

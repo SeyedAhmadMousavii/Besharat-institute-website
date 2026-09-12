@@ -11,10 +11,10 @@ export default function StudyAbroadCard() {
         <meta name="keywords" content="study abroad, student admission, UK study, Germany study, China study, India study, Turkey study, study consultancy, residency, Besharat Academy" />
       </Head>
       <div className="rounded-2xl shadow-xl overflow-hidden mx-4 my-8 bg-white border border-[#E8E8F0]">
-        <div className="flex flex-col-reverse md:flex-row justify-around">
+        <div className="flex flex-col md:flex-row justify-around">
           <div className="md:flex w-96 items-center justify-center rounded-l-2xl">
             <Image 
-              src="/assets/InternationalPart.png" 
+              src="/assets/InternationalPart.webp" 
               alt="Study Abroad & Student Admission" 
               width={384}
               height={300}

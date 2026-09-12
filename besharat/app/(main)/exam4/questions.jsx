@@ -442,7 +442,7 @@ export const questionsBank = [
   {
     id: 41,
     question: "نتیجه تابع ROUND(435.2312;3) چیست؟",
-    answer: "435.231",
+    answer:"435.2",
     options: [
       "435.23",
       "435.231",
@@ -486,7 +486,7 @@ export const questionsBank = [
   {
     id: 45,
     question: "از کشوی Cell Style از سربرگ Home برای ایجاد یک سبک جدید کدام گزینه استفاده می شود؟",
-    answer: "بعد از تعیین نام سبک، بر روی دکمه Ok کلیک می کنیم",
+    answer: "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم.",
     options: [
       "بعد از تعیین نام سبک، بر روی دکمه Add کلیک می کنیم.",
       "بر روی گزینه New Cell Style کلیک کرده و سپس نام سبک را تعیین می کنیم.",
@@ -607,7 +607,7 @@ export const questionsBank = [
   {
     id: 56,
     question: "کدام یک از گزینه های زیر به عنوان متن در نظر گرفته می شود؟",
-    answer: "10:30",
+    answer:  "3+2",
     options: [
       "4.3",
       "=2+3",
@@ -717,7 +717,7 @@ export const questionsBank = [
   {
     id: 66,
     question: "برای بالا بردن سرعت انجام کارها و جلوگیری از انجام کارهای تکراری از گزینه..... استفاده می شود.",
-    answer: "Template",
+    answer: "Style و Template",
     options: [
       "Merge",
       "Template",
@@ -783,7 +783,7 @@ export const questionsBank = [
   {
     id: 72,
     question: "اگر مقادیر D1=16 به ترتیب از بالا به پایین اعداد 8-10-24-14 باشد تابع =MAX(D1:D5) چه عددی را برمی گرداند؟",
-    answer: "24",
+    answer:"18",
     options: [
       "24",
       "8",
@@ -904,9 +904,9 @@ export const questionsBank = [
   {
     id: 83,
     question: "برای وارد کردن فرمول در یک سلول از کدام فرمان استفاده می کنیم؟",
-    answer: "Formulas - Insert Function",
+    answer: "Formulas -  Function",
     options: [
-      "Formulas - Insert Function",
+      "Formulas - Function",
       "Insert - Function",
       "Insert - Formulas",
       "Formulas - Insert"
@@ -959,7 +959,7 @@ export const questionsBank = [
   {
     id: 88,
     question: "انواع عملگرها در اکسل کدامند؟",
-    answer: "عملگرهای محاسباتی-آدرس-رشته ای",
+    answer:  "عملگرهای منطقی- محاسباتی- رشته ای- مقایسه ای",
     options: [
       "عملگرهای منطقی- محاسباتی- رشته ای- مقایسه ای",
       "عملگرهای منطقی- محاسباتی- آدرس",
@@ -1081,10 +1081,10 @@ export const questionsBank = [
   {
     id: 99,
     question: "اگر A1=TRUE ، B1=KH ، F3=4 باشد حاصل تابع =IF(A1=Kh,\"1\",\"2\") کدام است؟",
-    answer: "2",
+    answer: "f",
     options: [
       "4",
-      "1",
+     "f",
       "Error",
       "2"
     ]

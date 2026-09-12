@@ -9,7 +9,7 @@ export default function NotFound() {
         <div className="text-center -mt-4">
             <div className="w-full flex justify-center">
                 <Image 
-                    src="/assets/404.png" 
+                    src="/assets/404.webp" 
                     alt="404 page" 
                     width={400}
                     height={400}

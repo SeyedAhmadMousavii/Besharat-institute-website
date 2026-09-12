@@ -9,32 +9,32 @@ export default function portfolioPage() {
       options: [
         {
           id: 1,
-          img: "/assets/portfolioPic/IMG_5793.PNG",
+          img: "/assets/portfolioPic/IMG_5793.webp",
           title: "تصویر برداری",
           href: "https://masomehrezaie021-spec.github.io/tasvir-bardari/",
         },
         
         {
           id: 2,
-          img: "/assets/portfolioPic/michaelnest-icon.png",
+          img: "/assets/portfolioPic/michaelnest-icon.webp",
           title: "michaelnest",
           href: "https://jalalvandmichael.github.io/final-project/",
         },
         {
           id: 3,
-          img: "/assets/portfolioPic/photo_6012682691322514679_y.jpg",
+          img: "/assets/portfolioPic/photo_6012682691322514679_y.webp",
           title: "امیر اسپرت",
           href: "https://amiralishykhy6-hub.github.io/amirsport-bah-bah-/",
         },
         {
           id: 4,
-          img: "/assets/portfolioPic/IMG_1839.jpeg",
+          img: "/assets/portfolioPic/IMG_1839.webp",
           title: "Clash Of Clans",
           href: "https://hoseinashrafirad.github.io/Clash-Companion/",
         },
         {
           id: 5,
-          img: "/assets/portfolioPic/photo_6030427718073126343_y.jpg",
+          img: "/assets/portfolioPic/photo_6030427718073126343_y.webp",
           title: "همیار آموزگار میخک",
           href: "https://yaserrahnama666-cpu.github.io/Hamyar-Amoozegar-Mikhak/",
         },

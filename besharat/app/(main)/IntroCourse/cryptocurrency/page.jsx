@@ -64,7 +64,7 @@ const IntroDigitalCurrency = () => {
         download
       >
         <Image
-          src="/assets/trading.jpg"
+          src="/assets/trading.webp"
           alt="tradingBoard"
           width={64}
           height={64}
@@ -79,7 +79,7 @@ const IntroDigitalCurrency = () => {
         download
       >
         <Image
-          src="/assets/trading.jpg"
+          src="/assets/trading.webp"
           alt="glory"
           width={64}
           height={64}
@@ -94,7 +94,7 @@ const IntroDigitalCurrency = () => {
         download
       >
         <Image
-          src="/assets/trading.jpg"
+          src="/assets/trading.webp"
           alt="candleTime"
           width={64}
           height={64}
@@ -107,7 +107,7 @@ const IntroDigitalCurrency = () => {
       <div className="md:px-8 px-auto m-2">
         <div className="flex align-middle">
           <Image
-            src="/assets/maghalatIcon.jpg"
+            src="/assets/maghalatIcon.webp"
             alt="speaker"
             width={112}
             height={112}
@@ -127,7 +127,7 @@ const IntroDigitalCurrency = () => {
                 >
                   <div>
                     <Image
-                      src="/assets/maghalat/maghale9arz.jpeg"
+                      src="/assets/maghalat/maghale9arz.webp"
                       alt="coursePic"
                       width={280}
                       height={160}
@@ -159,7 +159,7 @@ const IntroDigitalCurrency = () => {
                 >
                   <div>
                     <Image
-                      src="/assets/maghalat/maghale8arz.jpg"
+                      src="/assets/maghalat/maghale8arz.webp"
                       alt="coursePic"
                       width={280}
                       height={160}
@@ -191,7 +191,7 @@ const IntroDigitalCurrency = () => {
                 >
                   <div>
                     <Image
-                      src="/assets/maghalat/maghale6arz.jpg"
+                      src="/assets/maghalat/maghale6arz.webp"
                       alt="coursePic"
                       width={280}
                       height={160}
@@ -223,7 +223,7 @@ const IntroDigitalCurrency = () => {
                 >
                   <div>
                     <Image
-                      src="/assets/maghalat/maghale7arz.jpg"
+                      src="/assets/maghalat/maghale7arz.webp"
                       alt="coursePic"
                       width={280}
                       height={160}
@@ -255,7 +255,7 @@ const IntroDigitalCurrency = () => {
                 >
                   <div>
                     <Image
-                      src="/assets/maghalat/انتخاب استراتژی معاملاتی.jpg"
+                      src="/assets/maghalat/انتخاب استراتژی معاملاتی.webp"
                       alt="coursePic"
                       width={280}
                       height={160}
@@ -287,7 +287,7 @@ const IntroDigitalCurrency = () => {
                 >
                   <div>
                     <Image
-                      src="/assets/maghalat/maghale2arz.jpg"
+                      src="/assets/maghalat/maghale2arz.webp"
                       alt="coursePic"
                       width={280}
                       height={160}
@@ -351,7 +351,7 @@ const IntroDigitalCurrency = () => {
                 >
                   <div>
                     <Image
-                      src="/assets/maghalat/maghale4arz.jpg"
+                      src="/assets/maghalat/maghale4arz.webp"
                       alt="coursePic"
                       width={280}
                       height={160}
@@ -383,7 +383,7 @@ const IntroDigitalCurrency = () => {
                 >
                   <div>
                     <Image
-                      src="/assets/maghalat/maghale5arz.jpeg"
+                      src="/assets/maghalat/maghale5arz.webp"
                       alt="coursePic"
                       width={280}
                       height={160}

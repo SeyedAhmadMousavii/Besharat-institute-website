@@ -12,7 +12,7 @@ export default function ArticlePage() {
         courses: [
           {
             id: 1, 
-            image: "/assets/maghalat/maghale-icdl.jpg",
+            image: "/assets/maghalat/maghale-icdl.webp",
             title: "مهارت های هفتگانه",
             time: "00:06:00",
             href: "/articlePage/icdl",
@@ -21,7 +21,7 @@ export default function ArticlePage() {
           },
           {
             id: 2,  
-            image: "/assets/maghalat/maghale-windows.jpg",
+            image: "/assets/maghalat/maghale-windows.webp",
             title: "ویندوز",
             time: "00:07:00",
             href: "/articlePage/windowsArticle",
@@ -30,7 +30,7 @@ export default function ArticlePage() {
           },
           {
             id: 3,  
-            image: "/assets/maghalat/maghale-arz.jpg",
+            image: "/assets/maghalat/maghale-arz.webp",
             title: "ارزدیجیتال چیست؟",
             time: "00:08:00",
             href: "/articlePage/digitalCurrency",
@@ -39,7 +39,7 @@ export default function ArticlePage() {
           },
           {
             id: 4,  
-            image: "/assets/maghalat/Entrepreneurship.png",
+            image: "/assets/maghalat/Entrepreneurship.webp",
             title: "روز کارآفرینی",
             time: "00:08:00",
             href: "/articlePage/Entrepreneurship",
@@ -48,7 +48,7 @@ export default function ArticlePage() {
           },
           {
             id: 5,  
-            image: "/assets/maghalat/کامپیوتر_فناوری_که_جهان_را_متحول_کرد.png",
+            image: "/assets/maghalat/کامپیوتر_فناوری_که_جهان_را_متحول_کرد.webp",
             title: "کامپیوتر جهان را متحول کرد",
             time: "00:08:00",
             href: "/articlePage/transformTheWorld",
@@ -68,7 +68,7 @@ export default function ArticlePage() {
         </Head>
         <div className="md:px-8 px-auto m-2 mt-16 bg-white min-h-screen">
           <div className="flex align-middle">
-            <Image src="/assets/maghalatIcon.jpg" alt="speaker" width={112} height={112} className="w-28 h-auto -mt-10" />
+            <Image src="/assets/maghalatIcon.webp" alt="speaker" width={112} height={112} className="w-28 h-auto -mt-10" />
             <h2 className="text-[#000080] font-extrabold text-3xl md:text-4xl">مقـــــالات</h2>
           </div>
           <div id="custom-animation" value="Web">

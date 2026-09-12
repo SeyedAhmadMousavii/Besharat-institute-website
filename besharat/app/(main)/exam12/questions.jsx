@@ -354,12 +354,12 @@ export const questionsBank = [
   {
     id: 33,
     question: "کدامیک از تگ های زیر در CSS عکس به محتوا اضافه می کند؟",
-    answer: "background-image = url('A.jpg')",
+    answer: "background-image = url('A.webp')",
     options: [
-      "<img src=\"A.jpg\">",
-      "<img href=\"A.jpg\">",
-      "background-image = url('A.jpg')",
-      "background-image = A.jpg"
+      "<img src=\"A.webp\">",
+      "<img href=\"A.webp\">",
+      "background-image = url('A.webp')",
+      "background-image = A.webp"
     ]
   },
   {

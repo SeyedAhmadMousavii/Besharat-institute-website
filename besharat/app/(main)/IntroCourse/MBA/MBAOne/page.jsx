@@ -5,7 +5,7 @@ const personalDevelopmentSkillsWhyDoSomePeopleGrowFaster = () => {
       <div className="text-[#1A1A2E] container mx-auto bg-white p-6">
         <div className="w-1/2 rounded-2xl flex justify-center m-auto my-3">
           <Image
-            src="/assets/maghalat/-مقاله توسعه فردی .png"
+            src="/assets/maghalat/-مقاله توسعه فردی .webp"
             alt="maghale-banner"
             width={800}
             height={200}

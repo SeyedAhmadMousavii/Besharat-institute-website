@@ -31,7 +31,7 @@ export default function Maliat() {
         </div>
         <div className="relative">
           <Image
-            src="/assets/maliat.png"
+            src="/assets/maliat.webp"
             width={500}
             height={400}
             className="w-[500px] h-auto -my-28"

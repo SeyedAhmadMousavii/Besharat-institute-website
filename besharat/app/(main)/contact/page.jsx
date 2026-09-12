@@ -8,14 +8,14 @@ export const metadata = {
 }
 
 const contactWays = [
-    { image: "/assets/contact/instagram.png", title: "اینستاگرام", href: "https://www.instagram.com/behsratacademy" },
-    { image: "/assets/contact/rubika.png", title: "روبیکا", href: "https://rubika.ir/besharatacademy", },
-    { image: "/assets/contact/telegram.png", title: "کانال تلگرام", href: "https://t.me/besharatacademy" },
-    { image: "/assets/contact/eita.png", title: "ایتا", href: "https://eitaa.com/besharatacademy" },
-    { image: "/assets/contact/aparat.png", title: "آپارت", href: "https://www.aparat.com/besharatacademy" },
-    { image: "/assets/contact/whatsApp.png", title: "واتساپ", href: "https://wa.me/989302758881?text=test" },
-    { image: "/assets/contact/location.png", title: "لوکیشن", href: "https://maps.app.goo.gl/SVtrJJGKzgGnJU3e7" },
-    { image: "/assets/contact/call.png", title: "تماس", href: "tel:09302758881" },
+    { image: "/assets/contact/instagram.webp", title: "اینستاگرام", href: "https://www.instagram.com/behsratacademy" },
+    { image: "/assets/contact/rubika.webp", title: "روبیکا", href: "https://rubika.ir/besharatacademy", },
+    { image: "/assets/contact/telegram.webp", title: "کانال تلگرام", href: "https://t.me/besharatacademy" },
+    { image: "/assets/contact/eita.webp", title: "ایتا", href: "https://eitaa.com/besharatacademy" },
+    { image: "/assets/contact/aparat.webp", title: "آپارت", href: "https://www.aparat.com/besharatacademy" },
+    { image: "/assets/contact/whatsApp.webp", title: "واتساپ", href: "https://wa.me/989302758881?text=test" },
+    { image: "/assets/contact/location.webp", title: "لوکیشن", href: "https://maps.app.goo.gl/SVtrJJGKzgGnJU3e7" },
+    { image: "/assets/contact/call.webp", title: "تماس", href: "tel:09302758881" },
 ];
 
 export default function ContactPage() {

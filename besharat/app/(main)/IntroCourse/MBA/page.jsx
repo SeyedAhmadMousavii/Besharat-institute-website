@@ -12,7 +12,7 @@ const articlesData = [
     title: "مهارت‌های توسعه فردی؛ چرا بعضی‌ها در مسیر حرفه‌ای سریع‌تر رشد می‌کنند؟",
     author: "موسوی",
     readTime: "00:10:00",
-    image: "/assets/maghalat/-مقاله توسعه فردی .png",
+    image: "/assets/maghalat/-مقاله توسعه فردی .webp",
     link: "MBA/MBAOne",
   },
   {
@@ -20,7 +20,7 @@ const articlesData = [
     title: "زبان بدن مدیران؛ وقتی حرکات از کلمات مهم‌تر می‌شوند",
     author: "موسوی",
     readTime: "00:09:00",
-    image: "/assets/maghalat/وقتی حرکات از کلمات مهم_تر می_شوند.png",
+    image: "/assets/maghalat/وقتی حرکات از کلمات مهم_تر می_شوند.webp",
     link: "MBA/MBATwo",
   },
 ];
@@ -177,7 +177,7 @@ const IntroMBA = () => {
       <div className="md:px-8 px-4 m-2 mt-16">
         <div className="flex items-center">
           <Image
-            src="/assets/maghalatIcon.jpg"
+            src="/assets/maghalatIcon.webp"
             alt="مقالات"
             width={112}
             height={112}

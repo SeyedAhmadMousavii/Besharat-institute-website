@@ -15,6 +15,7 @@ import TajershooCard from "./components/TajerShooCard/page";
 import ArticlePage from "./components/articleComponent/item";
 import Head from "next/head";
 import StudyAbroadCard from "./components/Internationalcard/page";
+import BookPromo from "./components/bookPromo/page";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
           <MainBanner />
           <Speciality />
           <StudyAbroadCard/>
+          <BookPromo />
           {/* <PriceListLink  /> */}
           <ProductSection  />
           <TajershooCard />

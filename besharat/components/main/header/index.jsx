@@ -233,7 +233,7 @@ export default function Header() {
           <Link href="/">
             <div className="hidden lg:block">
               <Image
-                src="/assets/brand_logo.png"
+                src="/assets/brand_logo.webp"
                 alt="logo"
                 width={120}
                 height={40}
@@ -244,7 +244,7 @@ export default function Header() {
             </div>
             <div className="lg:hidden">
               <Image
-                src="/assets/brand_purelogo.png"
+                src="/assets/brand_purelogo.webp"
                 alt="logo2"
                 width={50}
                 height={50}

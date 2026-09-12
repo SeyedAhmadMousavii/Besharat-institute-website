@@ -10,7 +10,7 @@ export default function PodCastPage() {
         value: "Web",
         courses: [
           {
-            image: "/assets/podCast/Pod1.jpg",
+            image: "/assets/podCast/Pod1.webp",
             title: "برنامه نویسی چیست؟",
             time: "00:04:30",
             href: "/podCastsPages/programming",
@@ -18,7 +18,7 @@ export default function PodCastPage() {
             color: "bg-purple-class"
           },
           {
-            image: "/assets/podCast/Pod2.jpg",
+            image: "/assets/podCast/Pod2.webp",
             title: "ارزدیجیتال چیست؟",
             time: "00:04:00",
             href: "/podCastsPages/digital",
@@ -26,7 +26,7 @@ export default function PodCastPage() {
             color: "bg-red-class"
           },
           {
-            image: "/assets/podCast/Pod3.jpg",
+            image: "/assets/podCast/Pod3.webp",
             title: "حسابداری پیست؟",
             time: "00:04:30",
             href: "/podCastsPages/accounting",
@@ -34,7 +34,7 @@ export default function PodCastPage() {
             color: "bg-green-class"
           },
           {
-            image: "/assets/podCast/Pod4.jpg",
+            image: "/assets/podCast/Pod4.webp",
             title: "طراحی گرافیک چیست؟",
             time: "00:03:40",
             href: "/podCastsPages/graphic",
@@ -48,7 +48,7 @@ export default function PodCastPage() {
     return (
       <div className="md:px-8 px-auto m-2">
         <div className="flex align-middle">
-          <Image src="/assets/speaker.jpg" alt="speaker" width={144} height={144} className="w-36 h-auto -mt-8" />
+          <Image src="/assets/speaker.webp" alt="speaker" width={144} height={144} className="w-36 h-auto -mt-8" />
           <h2 className="text-[#000080] font-extrabold text-3xl md:text-4xl">پــــــادکست ها</h2>
         </div>
         <div id="custom-animation" value="Web">

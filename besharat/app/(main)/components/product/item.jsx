@@ -29,13 +29,13 @@ export default function ProductItem({ thumbnail, title, caption, rev , link }) {
                         />
                     </div>
                     <div className="w-full lg:flex-grow text-lg text-center lg:text-start">
-                        <h1 className="text-2xl sm:text-3xl mb-6 font-semibold text-[#D4AF37]">{title}</h1>
-                        <p className="text-[#1A1A2E] text-center md:text-justify text-lg px-4 leading-relaxed">
+                        <h3 className="text-2xl sm:text-3xl mb-6 font-semibold text-[#D4AF37]">{title}</h3>
+                        <p className="text-[#1A1A2E] text-center md:text-justify text-base px-4 leading-relaxed">
                             {caption}
                         </p>
                       <Link href={link}>
                       <Button className="font-fa text-base mt-6 rounded-full w-full text-[#D4AF37] bg-[#000080] hover:bg-[#D4AF37] hover:text-[#000080] transition-all shadow-md hover:shadow-lg">
-                            مشاهده سرفصل و ثبت نام
+                            مشاهده سرفصل‌ها و ثبت‌نام
                         </Button>
                       </Link>
                     </div>

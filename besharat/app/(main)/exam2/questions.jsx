@@ -123,7 +123,7 @@ export const questionsBank = [
   {
     id: 12,
     question: "برای نمایش محتوای پنجره ها به صورت پشت سر هم کدام گزینه صحیح است؟",
-    answer: "Cascade",
+    answer:   "List",
     options: [
       "List",
       "Content",
@@ -134,12 +134,12 @@ export const questionsBank = [
   {
     id: 13,
     question: "جهت نمایش محتوای فایل های شناسایی نشده توسط ویندوز کدام گزینه صحیح است؟",
-    answer: "بر روی فایل کلیک راست کرده و گزینه Open را بزنید",
+    answer: "بر روی فایل کلیک راست کرده و گزینه Open withرا بزنید",
     options: [
       "بر روی آنها دابل کلیک کنید",
       "بر روی فایل کلیک راست کرده و Open را بزنید",
       "بر روی فایل کلیک کرده و Open را بزنید",
-      "بر روی فایل کلیک راست کرده و گزینه Open را بزنید"
+      "بر روی فایل کلیک راست کرده و گزینه Open withرا بزنید"
     ]
   },
   {
@@ -222,7 +222,7 @@ export const questionsBank = [
   {
     id: 21,
     question: "با دستور .................... می توان تغییرات یک فایل را با همان نام قبلی ذخیره و با دستور .................... می توان اطلاعات فایل فعلی را با نام دیگری ذخیره کرد؟",
-    answer: "Save - Save as",
+    answer:  "Save as - Save",
     options: [
       "Save as - Save",
       "Save - Save as",
@@ -750,7 +750,8 @@ export const questionsBank = [
   {
     id: 69,
     question: "گزینه Switch User چه کاری انجام می دهد؟",
-    answer: "بدون بستن محیط کاربر فعلی امکان ورود به ویندوز با نام کاربری دیگری فراهم می شود.",
+    answer: "کلیه برنامه های در حال اجرا را روی دیسک سخت ذخیره می کند و رایانه را خاموش می کند. در صورت روشن کردن مجدد برنامه های باز قبلی را به همان حالت قبل نمایش می دهد.",
+
     options: [
       "بدون بستن محیط کاربر فعلی امکان ورود به ویندوز با نام کاربری دیگری فراهم می شود.",
       "رایانه را قفل می کند.",
@@ -1267,7 +1268,7 @@ export const questionsBank = [
   {
     id: 116,
     question: "به منظور سفارشی کردن منوی Start گزینه .................... استفاده می شود.",
-    answer: "راست کلیک روی میز کار و انتخاب Properties و سپس Taskbar & Start Menu",
+    answer:  "Start / Properties",
     options: [
       "راست کلیک روی میز کار و انتخاب Properties و سپس Taskbar & Start Menu",
       "Start / Properties",
@@ -1410,7 +1411,7 @@ export const questionsBank = [
   {
     id: 129,
     question: "کلید های میانبر فرمان های Copy و Paste کدام است؟",
-    answer: "Ctrl+C / Ctrl+V",
+    answer:  "Ctrl+C / Ctrl+V",
     options: [
       "Ctrl+A / Ctrl+Y",
       "Ctrl+Y / Ctrl+E",
@@ -1476,7 +1477,7 @@ export const questionsBank = [
   {
     id: 135,
     question: "در کادر محاوره ای Taskbar And Start Menu Properties از طریق کدام گزینه نوار ابزار را جابجا می کنیم؟",
-    answer: "Taskbar Location On Screen",
+    answer:  "Autohide The Taskbar",
     options: [
       "Toolbars",
       "Taskbar Location On Screen",
@@ -2081,7 +2082,7 @@ export const questionsBank = [
   {
     id: 190,
     question: "اجرا کردن کدام فایل در پوشه یک نرم افزار منجر به نصب آن بر روی سیستم عامل ویندوز 10 می شود؟",
-    answer: "Setup.exe",
+    answer:"Setup.com",
     options: [
       "Setup.ini",
       "Setup.inf",

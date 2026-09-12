@@ -7,7 +7,6 @@ import Image from "next/image";
   export default function CourseCard({
   title,
   image,
-  price,
   teacher,
   href,
   id,
@@ -34,13 +33,13 @@ import Image from "next/image";
         </div>
         <div className="flex">
           <Button
-            className="font-fa text-base my-3 rounded-full w-1/2 bg-[#000080] text-[#D4AF37] hover:bg-[#B8960F] hover:text-[#000080] transition-all shadow-md hover:shadow-lg"
+            className="font-fa text-base my-3 rounded-full w-full bg-[#000080] text-[#D4AF37] hover:bg-[#B8960F] hover:text-[#000080] transition-all shadow-md hover:shadow-lg"
             id={id}
             onClick={() => onButtonClick(id)}
           >
             ثبت نام
           </Button>
-          <p className="m-auto font-extrabold text-[#000080]">{price}</p>
+      
         </div>
       </div>
     );

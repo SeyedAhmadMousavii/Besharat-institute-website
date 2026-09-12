@@ -828,6 +828,7 @@ export const questionsBank = [
     id: 76,
     question: "کدام گزینه برای تغییر نام فیلد در جدول صحیح نمی باشد؟",
     answer:  "کلیک راست روی نام فیلد و انتخاب گزینه Rename Column",
+
     options: [
       "فقط به نمای Data می توان نام فیلد را تغییر داد",
       "دوبار کلیک روی عنوان فیلد و تایپ نمودن نام جدید در نمای Datasheet",
@@ -2228,7 +2229,7 @@ export const questionsBank = [
     options: [
       "Macro",
       "Relationship",
-     "object",
+     ,"object",
       "Dependencies"
     ]
   },

@@ -5,7 +5,7 @@ const ManagersBodyLanguage = () => {
     <div className="text-[#1A1A2E] container mx-auto bg-white p-6">
       <div className="w-1/2 rounded-2xl flex justify-center m-auto my-3">
         <Image
-          src="/assets/maghalat/وقتی حرکات از کلمات مهم_تر می_شوند.png"
+          src="/assets/maghalat/وقتی حرکات از کلمات مهم_تر می_شوند.webp"
           alt="maghale-banner"
           width={800}
           height={400}

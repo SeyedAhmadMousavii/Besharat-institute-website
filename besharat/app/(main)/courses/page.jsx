@@ -19,7 +19,7 @@ export default function Page() {
       courses: [
         {
           id: 1,
-          image: "/assets/coursesBanner/icdl.png",
+          image: "/assets/coursesBanner/icdl.webp",
           title: "ICDL",
           price: "12,887,833 تومان",
           href: "/IntroCourse/icdl",
@@ -27,7 +27,7 @@ export default function Page() {
         },
         {
           id: 2,
-          image: "/assets/coursesBanner/preliminarily-web.png",
+          image: "/assets/coursesBanner/preliminarily-web.webp",
           title: "طراحی وب مقدماتی",
           price: "23,734,276 تومان",
           href: "/IntroCourse/webP",
@@ -35,7 +35,7 @@ export default function Page() {
         },
         {
           id: 3,
-          image: "/assets/coursesBanner/complimentary-web.png",
+          image: "/assets/coursesBanner/complimentary-web.webp",
           title: "طراحی وب تکمیلی",
           price: "28,251,529 تومان",
           href: "/IntroCourse/webC",
@@ -43,7 +43,7 @@ export default function Page() {
         },
         {
           id: 4,
-          image: "/assets/coursesBanner/AI.png",
+          image: "/assets/coursesBanner/AI.webp",
           title: "هوش مصنوعی",
           price: "23,707,110 تومان",
           href: "/IntroCourse/AI",
@@ -51,7 +51,7 @@ export default function Page() {
         },
         {
           id: 5,
-          image: "/assets/coursesBanner/photoshop.png",
+          image: "/assets/coursesBanner/photoshop.webp",
           title: "Photoshop",
           price: "17,647,216 تومان",
           href: "/IntroCourse/photoshop",
@@ -59,7 +59,7 @@ export default function Page() {
         },
         {
           id: 6,
-          image: "/assets/coursesBanner/premier.png",
+          image: "/assets/coursesBanner/premier.webp",
           title: "Premiere",
           price: "12,658,280 تومان",
           href: "/IntroCourse/premiere",
@@ -67,7 +67,7 @@ export default function Page() {
         },
         {
           id: 7,
-          image: "/assets/coursesBanner/corel.png",
+          image: "/assets/coursesBanner/corel.webp",
           title: "Corel",
           price: "11,830,636 تومان",
           href: "/IntroCourse/corel",
@@ -81,7 +81,7 @@ export default function Page() {
       courses: [
         {
           id: 8,
-          image: "/assets/coursesBanner/preliminarily-accounting.png",
+          image: "/assets/coursesBanner/preliminarily-accounting.webp",
           title: "حسابدار",
           price: "18,144,000 تومان",
           href: "/IntroCourse/accountingPage",
@@ -89,7 +89,7 @@ export default function Page() {
         },
         {
           id: 9,
-          image: "/assets/coursesBanner/assist-accounter.png",
+          image: "/assets/coursesBanner/assist-accounter.webp",
           title: "کمک حسابدار",
           price: "18,480,000 تومان",
           href: "/IntroCourse/assistAccounting",
@@ -97,7 +97,7 @@ export default function Page() {
         },
         {
           id: 10,
-          image: "/assets/coursesBanner/salary.png",
+          image: "/assets/coursesBanner/salary.webp",
           title: "حسابداری حقوق و دستمزد",
           price: "9,676,800 تومان",
           href: "/IntroCourse/salary",
@@ -105,7 +105,7 @@ export default function Page() {
         },
         {
           id: 11,
-          image: "/assets/coursesBanner/bahaye-tamam.png",
+          image: "/assets/coursesBanner/bahaye-tamam.webp",
           title: "حسابداری بهای تموم شده",
           price: "18,144,000 تومان",
           href: "/IntroCourse/CostAccounting",
@@ -113,7 +113,7 @@ export default function Page() {
         },
         {
           id: 12,
-          image: "/assets/coursesBanner/assist-mali.png",
+          image: "/assets/coursesBanner/assist-mali.webp",
           title: "کمک متصدی تنظیم اسناد مالی",
           price: "19,008,138 تومان",
           href: "/IntroCourse/assistFinancial",
@@ -121,7 +121,7 @@ export default function Page() {
         },
         {
           id: 13,
-          image: "/assets/coursesBanner/Holoo.png",
+          image: "/assets/coursesBanner/Holoo.webp",
           title: "کار با نرم افزار هلو",
           price: "18,000,000 تومان",
           href: "/IntroCourse/Holoo",
@@ -129,7 +129,7 @@ export default function Page() {
         },
         {
           id: 14,
-          image: "/assets/coursesBanner/Excel .png",
+          image: "/assets/coursesBanner/Excel .webp",
           title: "Excel تخصصی",
           price: "9,600,000 تومان",
           href: "/IntroCourse/Excel",
@@ -143,7 +143,7 @@ export default function Page() {
       courses: [
         {
           id: 15,
-          image: "/assets/coursesBanner/digitalCurrency.png",
+          image: "/assets/coursesBanner/digitalCurrency.webp",
           title: "تحلیلگر بازارهای مالی بین لملل",
           price: "37,800,000 تومان",
           href: "/IntroCourse/cryptocurrency",
@@ -151,7 +151,7 @@ export default function Page() {
         },
         {
           id: 16,
-          image: "/assets/coursesBanner/تحلیلگر تکنیکال .png",
+          image: "/assets/coursesBanner/تحلیلگر تکنیکال .webp",
           title: "تحلیلگر تکنیکال",
           price: "41,763,617 تومان",
           href: "/IntroCourse/cryptocurrency2",
@@ -165,7 +165,7 @@ export default function Page() {
       courses: [
         {
           id: 17,
-          image: "/assets/coursesBanner/v-ray.png",
+          image: "/assets/coursesBanner/v-ray.webp",
           title: "V-ray",
           price: "--- تومان",
           href: "/IntroCourse/Vray",
@@ -173,7 +173,7 @@ export default function Page() {
         },
         {
           id: 18,
-          image: "/assets/coursesBanner/3dMax.png",
+          image: "/assets/coursesBanner/3dMax.webp",
           title: "3D MAX",
           price: "19,051,200 تومان",
           href: "/IntroCourse/3dmax",
@@ -181,7 +181,7 @@ export default function Page() {
         },
         {
           id: 19,
-          image: "/assets/coursesBanner/Autocad.png",
+          image: "/assets/coursesBanner/Autocad.webp",
           title: "Autocad",
           price: "17,102,647 تومان",
           href: "/IntroCourse/Autocad",
@@ -195,7 +195,7 @@ export default function Page() {
       courses: [
         {
           id: 20,
-          image: "/assets/coursesBanner/مدیر ارشد .png",
+          image: "/assets/coursesBanner/مدیر ارشد .webp",
           title: "MBA",
           price: "43,092,000 تومان",
           href: "/IntroCourse/MBA",
@@ -203,7 +203,7 @@ export default function Page() {
         },
         {
           id: 21,
-          image: "/assets/coursesBanner/goldsmithing.png",
+          image: "/assets/coursesBanner/goldsmithing.webp",
           title: "طلاسازی",
           price: "--- تومان",
           href: "/IntroCourse/goldsmithing",
@@ -211,7 +211,7 @@ export default function Page() {
         },
         {
           id: 22,
-          image: "/assets/coursesBanner/nutrition.png",
+          image: "/assets/coursesBanner/nutrition.webp",
           title: "تغذیه",
           price: "--- تومان",
           href: "/IntroCourse/nutrition",
@@ -219,7 +219,7 @@ export default function Page() {
         },
         {
           id: 23,
-          image: "/assets/coursesBanner/tourism.png",
+          image: "/assets/coursesBanner/tourism.webp",
           title: "گردشگری",
           price: "--- تومان",
           href: "/IntroCourse/tourism",
@@ -227,7 +227,7 @@ export default function Page() {
         },
         {
           id: 24,
-          image: "/assets/coursesBanner/management.png",
+          image: "/assets/coursesBanner/management.webp",
           title: "مدیریت",
           price: "--- تومان",
           href: "/IntroCourse/management",
@@ -235,7 +235,7 @@ export default function Page() {
         },
         {
           id: 25,
-          image: "/assets/coursesBanner/negotiation.png",
+          image: "/assets/coursesBanner/negotiation.webp",
           title: "مهارت نرم",
           price: "--- تومان",
           href: "/IntroCourse/negotiation",
@@ -243,7 +243,7 @@ export default function Page() {
         },
         {
           id: 26,
-          image: "/assets/coursesBanner/ttcICDL.png",
+          image: "/assets/coursesBanner/ttcICDL.webp",
           title: " ICDL تربیت مدرس",
           price: "--- تومان",
           href: "/IntroCourse/ttcICDL",
@@ -251,7 +251,7 @@ export default function Page() {
         },
         {
           id: 27,
-          image: "/assets/coursesBanner/storagePage.png",
+          image: "/assets/coursesBanner/storagePage.webp",
           title: "انبارداری",
           price: "18,144,000 تومان",
           href: "/IntroCourse/storegePage",
@@ -259,7 +259,7 @@ export default function Page() {
         },
         {
           id: 28,
-          image: "/assets/coursesBanner/OAU.png",
+          image: "/assets/coursesBanner/OAU.webp",
           title: "کاربر اتوماسیون اداری",
           price: "--- تومان",
           href: "/IntroCourse/OAU",
@@ -267,7 +267,7 @@ export default function Page() {
         },
         {
           id: 29,
-          image: "/assets/coursesBanner/ttcCrypto.png",
+          image: "/assets/coursesBanner/ttcCrypto.webp",
           title: "تربیت مدرس ارز دیجیتال",
           price: "--- تومان",
           href: "/IntroCourse/ttcCrypto",
@@ -275,7 +275,7 @@ export default function Page() {
         },
         {
           id: 30,
-          image: "/assets/coursesBanner/ttcAccounting.png",
+          image: "/assets/coursesBanner/ttcAccounting.webp",
           title: "تربیت مدرس حسابداری",
           price: "--- تومان",
           href: "/IntroCourse/ttcAccounting",
@@ -283,7 +283,7 @@ export default function Page() {
         },
         {
           id: 31,
-          image: "/assets/coursesBanner/admin.png",
+          image: "/assets/coursesBanner/admin.webp",
           title: "تولید محتوا",
           price: "--- تومان",
           href: "/IntroCourse/adminPage",
@@ -291,7 +291,7 @@ export default function Page() {
         },
         {
           id: 33,
-          image: "/assets/coursesBanner/توسعه فردی .png",
+          image: "/assets/coursesBanner/توسعه فردی .webp",
           title: "توسعه فردی",
           price: "43,092,000 تومان",
           href: "/IntroCourse/coaching",
@@ -299,7 +299,7 @@ export default function Page() {
         },
         {
           id: 34,
-          image: "/assets/coursesBanner/پداگوژی .png",
+          image: "/assets/coursesBanner/پداگوژی .webp",
           title: "پداگوژی",
           price: "10,886,400 تومان",
           href: "/IntroCourse/pedagogy",

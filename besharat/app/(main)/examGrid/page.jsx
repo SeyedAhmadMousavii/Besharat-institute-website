@@ -7,7 +7,7 @@ const exams = [
   {
     id: 1,
     title: "IT",
-    icon: "/assets/exams/exam1.png",
+    icon: "/assets/exams/exam1.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"
@@ -15,7 +15,7 @@ const exams = [
   {
     id: 2,
     title: "WINDOWS",
-    icon: "/assets/exams/exam2.png",
+    icon: "/assets/exams/exam2.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"
@@ -23,7 +23,7 @@ const exams = [
   {
     id: 3,
     title: "WORD",
-    icon: "/assets/exams/exam3.png",
+    icon: "/assets/exams/exam3.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"
@@ -31,7 +31,7 @@ const exams = [
   {
     id: 4,
     title: "EXCEL",
-    icon: "/assets/exams/exam4.png",
+    icon: "/assets/exams/exam4.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"
@@ -39,7 +39,7 @@ const exams = [
   {
     id: 5,
     title: "ACCESS",
-    icon: "/assets/exams/exam5.png",
+    icon: "/assets/exams/exam5.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"
@@ -47,7 +47,7 @@ const exams = [
   {
     id: 6,
     title: "POWERPOINT",
-    icon: "/assets/exams/exam6.png",
+    icon: "/assets/exams/exam6.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"
@@ -55,7 +55,7 @@ const exams = [
   {
     id: 7,
     title: "اینترنت",
-    icon: "/assets/exams/exam7.png",
+    icon: "/assets/exams/exam7.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"
@@ -63,7 +63,7 @@ const exams = [
   {
     id: 8,
     title: "شبیه ساز آزمون فنی و حرفه ای",
-    icon: "/assets/exams/exam8.png",
+    icon: "/assets/exams/exam8.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"
@@ -71,7 +71,7 @@ const exams = [
   {
     id: 9,
     title: "ارز دیجیتال",
-    icon: "/assets/exams/exam9.png",
+    icon: "/assets/exams/exam9.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"
@@ -79,7 +79,7 @@ const exams = [
   {
     id: 10,
     title: "پداگوژی",
-    icon: "/assets/exams/exam10.png",
+    icon: "/assets/exams/exam10.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"
@@ -95,7 +95,7 @@ const exams = [
   {
     id: 12,
     title: "طراحی سایت",
-    icon: "/assets/exams/exam12.png",
+    icon: "/assets/exams/exam12.webp",
     color: "from-[#f9ca24] to-[#ffd700]",
     questions: "۴۰ سوال تصادفی",
     duration: "۴۰ دقیقه"

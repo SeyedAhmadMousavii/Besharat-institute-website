@@ -13,7 +13,7 @@ export function Loan() {
 
   return (
     <div className="flex flex-col items-center bg-white px-4 py-8 rounded-2xl shadow-md">
-      <h1 className="text-[#000080] mb-10 text-2xl font-bold text-center">شرایط دریافت تسهیلات وام خود اشتغالی سازمان فنی و حرفه‌ای با استفاده از دیپلم مهارت</h1>
+      <h2 className="text-[#000080] mb-10 text-2xl font-bold text-center">شرایط دریافت تسهیلات وام خود اشتغالی سازمان فنی و حرفه‌ای با استفاده از دیپلم مهارت</h2>
       <div className="flex flex-wrap justify-around w-full mb-16">
         {/* First Column */}
         <div className="w-[500px] px-2">
