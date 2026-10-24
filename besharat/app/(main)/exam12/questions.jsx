@@ -354,12 +354,12 @@ export const questionsBank = [
   {
     id: 33,
     question: "کدامیک از تگ های زیر در CSS عکس به محتوا اضافه می کند؟",
-    answer: "background-image = url('A.webp')",
+    answer: "background-image = url('A.jpg')",
     options: [
-      "<img src=\"A.webp\">",
-      "<img href=\"A.webp\">",
-      "background-image = url('A.webp')",
-      "background-image = A.webp"
+      "<img src=\"A.jpg\">",
+      "<img href=\"A.jpg\">",
+      "background-image = url('A.jpg')",
+      "background-image = A.jpg"
     ]
   },
   {
@@ -376,7 +376,7 @@ export const questionsBank = [
   {
     id: 35,
     question: "کدامیک از دستورات زیر برای Responsive یا واکنش گرا کردن وب سایت نمی باشد؟",
-    answer: "Picture",
+    answer:"Float",
     options: [
       "Flex",
       "Float",

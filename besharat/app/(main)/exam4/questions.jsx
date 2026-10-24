@@ -24,10 +24,10 @@ export const questionsBank = [
   {
     id: 3,
     question: "برای ضبط یک ماکرو از چه گزینه ای استفاده می کنیم؟",
-    answer: "View گزینه Macro",
+    answer:"سربرگ view گروه Macro گزینه Record Macro",
     options: [
       "Insert گزینه Macro",
-      "View گزینه Macro",
+      "سربرگ view گروه Macro گزینه Record Macro",
       "Review گزینه Macro",
       "Developer گزینه Macro"
     ]
@@ -442,7 +442,7 @@ export const questionsBank = [
   {
     id: 41,
     question: "نتیجه تابع ROUND(435.2312;3) چیست؟",
-    answer:"435.2",
+    answer:"435.231",
     options: [
       "435.23",
       "435.231",
@@ -782,7 +782,7 @@ export const questionsBank = [
   },
   {
     id: 72,
-    question: "اگر مقادیر D1=16 به ترتیب از بالا به پایین اعداد 8-10-24-14 باشد تابع =MAX(D1:D5) چه عددی را برمی گرداند؟",
+    question: "اگر مقادیر D1=16 به ترتیب از بالا به پایین اعداد 18-10-24-14 باشد تابع =MAX(D1:D5) چه عددی را برمی گرداند؟",
     answer:"18",
     options: [
       "24",
@@ -1234,7 +1234,7 @@ export const questionsBank = [
   },
   {
     id: 113,
-    question: "نتیجه حاصل از فرمول =2^3*2+4/2 در اکسل چه عددی است؟",
+    question: "نتیجه حاصل از فرمول  4/2+2*3^2=در اکسل چه عددی است؟",
     answer: "18",
     options: [
       "66",
@@ -1284,7 +1284,7 @@ export const questionsBank = [
       "Cell",
       "Workbook",
       "Worksheet",
-      "Sheet"
+      "کاربرگ"
     ]
   },
   {

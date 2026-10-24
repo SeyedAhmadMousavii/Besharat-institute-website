@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function BookPromo() {
   return (
-    <div className="py-8 px-4 mx-6 my-10">
+    <div className="py-8 px-4 my-10">
       <div className="container mx-auto">
         <div className="rounded-2xl shadow-xl overflow-hidden bg-white border border-[#E8E8F0]">
           <div className="flex flex-col-reverse md:flex-row justify-around items-center">
@@ -24,7 +24,7 @@ export default function BookPromo() {
               <div className="w-20 h-1 bg-[#D4AF37] mb-4 rounded-full"></div>
 
               <p className="leading-relaxed text-[#1A1A2E] mb-2">
-                کتاب جامع تحلیل بازارهای مالی بین‌الملل، حاصل سال‌ها تجربه عملی و دانش تخصصی در حوزه فارکس، ارزهای دیجیتال و بازارهای سرمایه است.
+                کتاب تحلیلگر بازارهای مالی بین‌الملل، حاصل سال‌ها تجربه عملی و دانش تخصصی در حوزه فارکس، ارزهای دیجیتال است.
               </p>
               
               <p className="leading-relaxed text-[#1A1A2E] mb-6">

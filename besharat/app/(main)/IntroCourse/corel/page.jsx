@@ -5,8 +5,8 @@ import {
 } from "@heroicons/react/24/solid";
 const IntroCorel = () => {
   return (
-    <div className="text-white p-2">
-      <div className="p-4 md:flex md:justify-around md:align-middle text-white container mb-12">
+    <div className="p-2">
+      <div className="p-4 md:flex md:justify-around md:align-middle container mb-12">
         <div className="flex-col justify-center p-2 w-full">
           <h1 className="font-bold text-3xl mb-12 flex justify-center">
             Corel

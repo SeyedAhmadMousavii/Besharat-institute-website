@@ -8,7 +8,7 @@ import Library from "./components/libraryBanner/library";
 import Employment from "./components/employment";
 import { Loan } from "./components/loan/Loan";
 import InstagramGallery from "./components/instagram/page";
-import PriceListLink from "./components/prices/page";
+
 import ExamGrid from "./examGrid/page";
 import DiplomaPromoCard from "./components/DiplomaPromoCard/page";
 import TajershooCard from "./components/TajerShooCard/page";
@@ -16,6 +16,9 @@ import ArticlePage from "./components/articleComponent/item";
 import Head from "next/head";
 import StudyAbroadCard from "./components/Internationalcard/page";
 import BookPromo from "./components/bookPromo/page";
+import TTCBanner from "./components/TTCCourse/page";
+import PriceListLink from "./components/prices/page";
+
 
 export default function Home() {
   return (
@@ -31,7 +34,9 @@ export default function Home() {
           <Speciality />
           <StudyAbroadCard/>
           <BookPromo />
-          {/* <PriceListLink  /> */}
+          <PriceListLink />
+          <TTCBanner />
+       
           <ProductSection  />
           <TajershooCard />
           <ExamGrid/>

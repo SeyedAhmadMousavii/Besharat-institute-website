@@ -563,7 +563,7 @@ export const questionsBank = [
   {
     id: 52,
     question: "برای ذخیره تنها متن های وب، کدام نوع ذخیره سازی را باید انتخاب کرد؟",
-    answer:"Txt File",
+    answer: "Txt File",
     options: [
       "Web Page, Complete",
       "Web Art",
@@ -1443,7 +1443,7 @@ export const questionsBank = [
   {
     id: 132,
     question: "حداقل تعداد کاراکترهای کلمه عبور در پست الکترونیکی کدام گزینه می باشد؟",
-    answer: "6",
+    answer:"8",
     options: [
       "6",
       "32",
@@ -1597,7 +1597,7 @@ export const questionsBank = [
   {
     id: 146,
     question: "بخشی از یک وبسایت داخلی یک شرکت که برای تعدادی از مشتریان قابل دسترسی است چه نامیده می شود؟",
-    answer: "Extranet",
+    answer:"Intranet",
     options: [
       "Network",
       "Intranet",
@@ -1652,7 +1652,7 @@ export const questionsBank = [
   {
     id: 151,
     question: "برای مدیریت پسوردهای ذخیره شده وبسایت ها در Microsoft Edge از کدام بخش اقدام کنیم؟",
-    answer: "Profiles",
+    answer:"Cookies and Site Permission",
     options: [
       "Accessibility",
       "Privacy and Policy",

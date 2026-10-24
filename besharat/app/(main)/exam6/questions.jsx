@@ -497,7 +497,7 @@ export const questionsBank = [
   {
     id: 46,
     question: "ابزارهای .......... و .......... برای بازگشت به اسلاید قبل و رفتن به اسلاید بعدی استفاده می شود.",
-    answer: "Previous Slide و Next Slide",
+    answer:"Next Slide و Previous Slide",
     options: [
       "Next Slide",
       "Previous Slide",

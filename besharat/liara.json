@@ -1,7 +1,9 @@
 {
-    "app" : "besharatacademy",
-    "disks" : [{
-        "name" : "main-disk",
-        "mountTo" : "/app/public/media"
+    "platform": "next",
+    "app": "besharatacademy",
+    "port": 3000,
+    "disks": [{
+        "name": "main-disk",
+        "mountTo": "/app/public/media"
     }]
 }

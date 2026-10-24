@@ -16,6 +16,7 @@ const contactWays = [
     { image: "/assets/contact/whatsApp.webp", title: "واتساپ", href: "https://wa.me/989302758881?text=test" },
     { image: "/assets/contact/location.webp", title: "لوکیشن", href: "https://maps.app.goo.gl/SVtrJJGKzgGnJU3e7" },
     { image: "/assets/contact/call.webp", title: "تماس", href: "tel:09302758881" },
+    { image: "/assets/contact/linkedin.webp", title: "لینکدین", href: "https://www.linkedin.com/in/besharat-academy-297536431/" },
 ];
 
 export default function ContactPage() {

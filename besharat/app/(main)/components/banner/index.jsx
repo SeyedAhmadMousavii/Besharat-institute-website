@@ -11,21 +11,21 @@ export default function MainBanner() {
       <div className="flex flex-col-reverse md:flex-row gap-4 justify-between container mx-auto align-middle">
         <div className="flex-col justify-around mt-9 align-middle">
           <h1 className="text-2xl md:text-3xl font-extrabold mb-3 text-center md:text-start text-[#000080]">
-            آموزشگاه بین‌المللی کامپیوتر، حسابداری و ارز دیجیتال بشارت
+            آموزشگاه بین‌المللی کامپیوتر، حسابداری، نقشه‌کشی، هوش مصنوعی و ارز دیجیتال بشارت
           </h1>
-          
+
           <div className="space-y-3 mb-4">
             <p className="text-[#1A1A2E] text-base md:text-xl text-center md:text-start font-semibold border-r-4 border-[#D4AF37] pr-3">
-              از سال ۱۳۷۹ تا امروز، مرجع تخصصی آموزش مهارت در غرب تهران
+              مرجع تخصصی آموزش مهارت‌های فنی و حرفه‌ای از سال ۱۳۷۹ تاکنون
             </p>
             <p className="text-[#1A1A2E] text-sm md:text-lg text-center md:text-start leading-relaxed">
-              آموزشگاه بین‌المللی بشارت به مدیریت <span className="text-[#D4AF37] font-bold">ساناز فراهانی</span>، از پایه نهم تا دکترا.
+              آموزشگاه بین‌المللی بشارت، به مدیریت <span className="text-[#D4AF37] font-bold">ساناز فراهانی</span>، با بیش از دو دهه سابقه در آموزش تخصصی، مسیر تحصیلی و حرفه‌ای متقاضیان را از پایه نهم تا مقطع دکترا برنامه‌ریزی و اجرا می‌کند.
             </p>
             <p className="text-[#1A1A2E] text-sm md:text-lg text-center md:text-start leading-relaxed">
-              مسیر یادگیری شما را با اساتید متخصص و مدرک معتبر فنی و حرفه‌ای هموار می‌کند.
+              اساتید مجرب این مجموعه، محتوای آموزشی هر دوره را مطابق با استانداردهای روز طراحی می‌کنند و فارغ‌التحصیلان در پایان هر دوره، مدرک معتبر فنی و حرفه‌ای دریافت می‌نمایند.
             </p>
             <p className="text-[#1A1A2E] text-sm md:text-lg text-center md:text-start leading-relaxed">
-              همراه شما تا رسیدن به هدف؛ با پشتیبانی مستمر و آموزش‌های کاربردی.
+              فرآیند آموزش در این آموزشگاه، از لحظه ثبت‌نام تا دستیابی به اهداف شغلی و تحصیلی، تحت پشتیبانی تخصصی و مستمر قرار دارد.
             </p>
           </div>
 
@@ -43,13 +43,13 @@ export default function MainBanner() {
             </a>
           </div>
         </div>
-        <div className="relative -mt-24">
+        <div className="relative -mt-20">
           <Image
             src="/assets/main_section_banner.webp"
             width={500}
             height={500}
-            className="w-[480px] h-auto"
-            alt="آموزشگاه بین‌المللی بشارت - مرجع تخصصی آموزش کامپیوتر، حسابداری و ارز دیجیتال"
+            className="w-[900px] h-auto"
+            alt="آموزشگاه بین‌المللی بشارت - مرجع تخصصی آموزش کامپیوتر، حسابداری، نقشه‌کشی، هوش مصنوعی و ارز دیجیتال"
             priority
           />
         </div>
