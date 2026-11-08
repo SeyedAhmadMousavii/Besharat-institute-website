@@ -2,6 +2,7 @@
     "platform": "next",
     "app": "besharatacademy",
     "port": 3000,
+    "mirror": false,
     "disks": [{
         "name": "main-disk",
         "mountTo": "/app/public/media"

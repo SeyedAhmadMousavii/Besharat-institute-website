@@ -1,10 +1,9 @@
 "use client";
 
-import { publicRuntimeConfig } from "@/next.config";
 import axios from "axios";
 
 export default function useAxios() {
-    const baseURL = publicRuntimeConfig.BASEAPI
+    const baseURL = process.env.NEXT_PUBLIC_BASEAPI;
 
     const instance = axios.create({
         baseURL

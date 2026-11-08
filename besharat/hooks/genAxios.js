@@ -1,8 +1,7 @@
-import { publicRuntimeConfig } from "@/next.config";
 import axios from "axios";
 
 export default function genAxios() {
-    const baseURL = publicRuntimeConfig.BASEAPI
+    const baseURL = process.env.NEXT_PUBLIC_BASEAPI
     const instance = axios.create({
         baseURL
     })
